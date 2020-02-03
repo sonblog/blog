@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-  url: 'https://quachson.netlify.com',
+  url: 'https://lumen.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by Son Quach',
+  title: 'Son Quach',
   subtitle: 'Backend developer',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -27,15 +27,23 @@ module.exports = {
   author: {
     name: 'Son Quach',
     photo: '/photo.jpg',
-    bio: 'I blog about web development, java and more topics',
+    bio: 'I blog about web development, Java and more topics',
     contacts: {
       email: '',
       facebook: '#',
-      telegram: '#',      
+      telegram: '#',
+      twitter: '#',
       github: '#',
-      rss: '',      
+      rss: '',
+      vkontakte: '',
       linkedin: '#',
       instagram: '#',
+      line: '',
+      gitlab: '',
+      weibo: '',
+      codepen: '',
+      youtube: '',
+      soundcloud: '',
     }
   }
 };
