@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://quachson.netlify.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Blog by Son Quach',
+  subtitle: 'Backend developer',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -25,25 +25,17 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Son Quach',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'I blog about web development, java and more topics',
     contacts: {
       email: '',
       facebook: '#',
-      telegram: '#',
-      twitter: '#',
+      telegram: '#',      
       github: '#',
-      rss: '',
-      vkontakte: '',
+      rss: '',      
       linkedin: '#',
       instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
-      codepen: '',
-      youtube: '',
-      soundcloud: '',
     }
   }
 };
