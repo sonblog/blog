@@ -1,0 +1,208 @@
+---
+author: admin
+comments: true
+date: 2010-03-03 02:52:00+00:00
+layout: post
+link: https://quachson.com/nh%e1%bb%afng-di%e1%bb%81u-c%e1%ba%a7n-bi%e1%ba%bft-v%e1%bb%81-ssl/
+slug: nh%e1%bb%afng-di%e1%bb%81u-c%e1%ba%a7n-bi%e1%ba%bft-v%e1%bb%81-ssl
+title: Những điều cần biết về SSL
+wordpress_id: 78
+categories:
+- Network
+tags:
+- Network
+---
+
+**I. Giới thiệu về SSL**
+
+**1.1 SSL là gì?**
+
+SSL(Secure Socket Layer) là một giao thức(protocol) cho phép bạn truyền đạt thông tin một cách an toàn qua mạng.
+
+**1.2 Thuật toán mã hóa**
+
+Mã hóa(encrypt) và giải mã(decrypt) thông tin dùng các hàm toán học đặt biệt được biết đến với cái tên là thuật toán mã hóa (cryptographic algorithm) và thường được gọi tắt là cipher.
+
+**1.3 Khóa là gì?**
+
+Khóa(key) là một thông tin quan trọng dùng để mã hóa thông tin hoặc giải mã thông tin đã bị mã hóa. Bạn có thể hiểu nôm na khóa là mật khẩu(password).
+
+**1.4 Các phương pháp mã hóa**
+
+Có hai phương pháp mã hóa được sử dụng phổ biến hiện nay là mã hóa bằng khóa đối xứng và mã hóa dùng cặp khóa chung - khóa riêng..
+
+**1.4.1 Mã hóa bằng khóa đối xứng(symmetric-key)**
+
+Khóa dùng để mã hóa cũng là khóa dùng để giải mã.
+
+**1.4.2 Mã hóa dùng cặp khóa chung - khóa riêng (public key - private key)**
+
+Một khe hở trong mã hóa đối xứng là bạn phải chuyển khóa cho người nhận để họ có thể giải mã. Việc chuyển khóa không được mã hóa qua mạng là một điều cực kì mạo hiểm. Nhở như khóa này rơi vào tay người khác thế là họ có thể giải mã được thông tin mà bạn đã chuyển đi. Phương pháp mã hóa bằng khóa chung - khóa riêng ra đời nhằm giải quyết vấn đề này. Thay vì chỉ có một khóa duy nhất dùng chung cho mã hóa và giải mã, bạn sẽ có một cặp khóa gồm khóa chung chỉ dùng để mã hóa và khóa riêng chỉ dùng để mã hóa. Bạn cho người khác biết khóa chung của bạn để họ mã hóa các thông tin gởi đến bạn. Chỉ có bạn mới có khóa riêng để giải mã các thông tin này. Nhở như thông tin này có rơi vào tay người khác thì họ cũng không thể giải mã được vì chỉ có bạn mới có khóa riêng mà.
+
+**1.5. Độ dài khóa (key-length)**
+
+Độ dài khóa được tính theo bit: 128bit, 1024bit hay 2048bit,... Khóa càng dài thì càng khó phá. Chằng hạn như khóa RSA 1024bit đồng nghĩa với việc chọn 1 trong 2^1024 khả năng.
+
+**1.6 Password & passparse**
+
+Password và passparse gần giống nhau. Password không bao giờ hết hạn(expire). Passparse chỉ có hiệu lực trong một khoảng thời gian nhất định có thể là 5 năm, 10 năm hay chỉ là vài ba ngày. Sau thời gian đó, bạn phải thay đổi lại mật khẩu mới. Nói chung, mọi thứ trong SSL như passparse, khóa, giấy chứng nhận, chữ kí số (sẽ nói sau), ... đều chỉ có thời hạn sử dụng nhất định. Passparse được dùng để mở (mã hóa/giải mã) khóa riêng.
+
+**II. Cơ chế làm việc của SSL**
+
+Để dễ hiểu, phần này sẽ trình bày qua ví dụ cụ thể: Alice trao đổi thông tin với Bob bằng công nghệ khóa chung. {something}key có nghĩa là something được mã hóa hoặc giải mã bằng key.
+
+Alice cần chắc chắn là mình sẽ nói chuyện với Bob mà không phải là một ai khác. Alice sẽ tiến hành xác thực(authenticate) Bob.Bob có một cặp khóa gồm một khóa chung và một khóa riêng. Bob cho Alice biết trước khóa chung của mình (sẽ nói sau bằng cách nào). Alice tạo ra một thông điệp ngẫu nhiên(random message) và gởi nó đến Bob:
+
+
+<blockquote>A->B message ngẫu nhiên</blockquote>
+
+
+Bob dùng khóa riêng của mình để mã hóa thông điệp vừa nhận được và gởi trả lại cho Alice:
+
+
+<blockquote>B->A {message ngẫu nhiên}khóa-riêng-của-bob</blockquote>
+
+
+Alice nhận được message từ Bob, dùng khóa chung của Bob để giải mã message này và sau đó so sánh message vừa giải mã được với random-message đã gởi đi. Nếu giống nhau, Alice có thể tin chắc rằng mình đang nói chuyện với Bob.
+
+**1. Bản tóm tắt (digest)**
+
+Thay vì phải mã hóa toàn bộ message nhận được từ Alice, Bob có thể xây dựng một bản tóm tắt(digest) của message bằng hàm băm một chiều (hash one-way), sau đó mã hóa digest bằng khóa riêng của mình và gởi cho Alice. Alice sẽ dùng khóa chung của Bob để giải mã digest do Bob gởi tới và tính digest của message đã được gởi đi, sau đó so sánh hai digest này với nhau. Nếu trùng nhau, có nghĩa Alice có thể tin chắc là mình đang nói chuyện với Bob.
+
+Digest thực chất là chỉ là một số nguyên(integer). Hai thuật toán phổ biến được dùng để tạo digest là MD5 hash 128bit, SHA hash 160 bit. Ai đó có được digest của Bob cũng không thể nào suy luận ra được message nguyên bản(original) vì digest chỉ là giá trị hash một chiều. Hai message khác nhau sẽ có digest khác nhau, khả năng trùng nhau xấp xỉ là 0.
+
+**2. Chữ kí điện tử (digital signature)**
+
+Theo cách ở trên thì Bob đã kí(sign) message do Alice gởi tới, nhở như ai đó đã thay đổi message này thì sao? Vì vậy cần thay đổi một chút như sau:
+
+
+<blockquote>A->B Chào, Có phải Bob đó không?
+B->A Alice, Mình là Bob đây!
+{digest[Alice, Mình là Bob đây!]}khóa-riêng-của-bob</blockquote>
+
+
+Như bạn thấy Bob không hề kí message của Alice. Thay vào đó, Bob sẽ gởi một mesage khác(không bị mã hóa) và digest của của message này (đã được mã hóa bằng khóa riêng của Bob) đến cho Alice. Bob chỉ tin tưởng vào chính mình. Alice dễ dàng thẩm tra Bob bằng cách dùng khóa chung của Bob giải mã digest nhận được, sau đó tính digest của message nhận từ Bob và so sánh hai digest này với nhau. Digest mà Bob gởi tới Alice chính là một chữ kí điện tử. Nó kí cho message "Alice, Mình là Bob đây!" để đảm bảo chắc chắn là message này không bị ai đó thay đổi gì khi đến Alice. Nếu thay đổi Alice sẽ biết ngay qua việc thẩm tra digest.
+
+**3. Trao khóa chung**
+
+Bob trao khóa chung của mình cho Alice bằng cách nào? Bạn hãy xem thử giao thức sau:
+
+
+<blockquote>A->B Xin chào!
+B->A Chào, Mình là Bob. Đây là khóa chung của mình!
+A->B Hãy đưa bằng chứng đi!
+B->A Alice, Mình là Bob đây!
+digest[Alice, Mình là Bob đây!]}khóa-riêng-của-bob</blockquote>
+
+
+Với cách này thì ai cũng có thể giả mạo Bob và trao khóa chung của họ cho Alice, làm cho Alice tưởng lầm là mình đang nói chuyện với Bob.
+
+Để giải quyết vấn đề này, Alice và Bob có thể dùng giấy chứng nhận điện tử
+
+**4. Giấy chứng nhận điện tử (digital certificate)**
+
+Giấy chứng nhận điện tử dùng để chứng nhận khóa chung của một cá nhân nào đó. Một giấy chứng nhận điện tử thường bao gồm các thứ sau:
+tên cơ quan cấp giấy chứng nhận (issuer's name)
+tên thực thể(entity) được cấp giấy chứng nhận(còn được gọi là đối tượng - subject)
+khóa chung của subject
+tem thời gian(time-stamps) cho biết thời gian có hiệu lực của giấy chứng nhận
+Chỉ có các cơ quan có thẩm quyền Certificate Authority (thường được gọi tắt là CA) mới đươc phép cấp giấy chứng nhận. Giấy chứng nhận được kí bằng khóa riêng của người cấp. CA cũng được tổ chức theo dạng cây "hierarchy" tương tự như domain-name. Dĩ nhiên bạn cũng có thể tạo ra một CA mới cho riêng cho mình.
+
+Chúng ta hãy xem giao thức mới này:
+
+
+<blockquote>A->B Xin chào!
+B->A Chào, Mình là Bob. Đây là giấy chứng nhận của mình!
+A->B Hãy đưa bằng chứng đi!
+B->A Alice, Mình là Bob đây!
+{digest[Alice, Mình là Bob đây!]}khóa-riêng-của-bob</blockquote>
+
+
+Ai đó dùng giấy chứng nhận của Bob để giả mạo Bob sẽ bị Alice phát hiện ngay!
+
+
+<blockquote>A->M Xin chào
+M->A Chào, Mình là Bob. Đây là giấy chứng nhận của mình!
+A->M Hãy đưa bằng chứng đi!
+M->A ???</blockquote>
+
+
+Mallet không biết khóa riêng của Bob nên không thể xây dựng được message để Alice có thể tin mình là Bob.
+
+**5. Trao đổi khóa bí mật (secret-key)**
+
+Sau khi Alice đã xác thực mình đang nói chuyện với Bob, Alice sẽ gởi cho Bob một message đã bị mã hóa bằng khóa chung của Bob:
+
+
+<blockquote>A->B {khóa bí mật}khóa-chung-của-bob</blockquote>
+
+
+Bằng cách này, chỉ có Bob mới có thể giải mã message trên và lấy được khóa bí mật bởi vì chỉ có Bob mới biết được khóa riêng để giải mã. Trao đổi khóa bí mật bằng công nghệ khóa chung cực kì an toàn. Không một ai ngoại trừ Alice và Bob biết được khóa bí mật. Khóa bí mật này còn được biết đến với cái tên là khóa phiên(session key). Kể từ đây Alice và Bob sẽ dùng khóa phiên để trao đổi dữ liệu cho nhau. Khóa phiên được tạo ra trong mỗi phiên kết nối SSL và hoàn toàn bí mật(chỉ có Alice và Bob biết) nên rất an toàn. Công nghệ chuyên chở khóa phiên bằng khóa chung và dùng khóa phiên như một khóa đối xứng bí mật để trao đổi dữ liệu cho nhau còn được biết đến với cái tên là mã hóa dùng khóa lai ghép(hybrid), tức là kết hợp cả hai phương pháp mã hóa dung khóa đối xứng và khóa chung-khóa riêng.
+
+Đây là giao thức mới:
+
+
+<blockquote>A->B Xin chào!
+B->A Chào, Mình là Bob. Đây là giấy chứng nhận của mình!
+A->B Hãy đưa bằng chứng đi!
+B->A Alice, Mình là Bob đây!
+{digest[Alice, Mình là Bob đây!]}khóa-riêng-của-bob
+A->B Ok Bob, Đây là {khóa bí mật}khóa-chung-của-bob
+B->A {message 1}khóa-bí-mật
+B->A {message 2}khóa-bí-mật
+...</blockquote>
+
+
+**6. Tấn công man-in-the-middle**
+
+Giao thức trên chưa phải là an toàn tuyệt đối. Mallet ngồi giữa Alice và Bob có thể chơi trò tấn công man-in-the-middle như sau:
+
+
+<blockquote>A->M Xin chào!
+M->B Xin chào!
+
+B->M Chào, Mình là Bob. Đây là giấy chứng nhận của mình!
+M->A Chào, Mình là Bob. Đây là giấy chứng nhận của mình!
+
+A->M Hãy đưa bằng chứng đi!
+M->B Hãy đưa bằng chứng đi!
+
+B->M Alice, Mình là Bob đây!
+{digest[Alice, Mình là Bob đây!]}khóa-riêng-của-bob
+M->A Alice, Mình là Bob đây!
+{digest[Alice, Mình là Bob đây!]}khóa-riêng-của-bob
+
+A->M Ok Bob, đây là {khóa bí mật}khóa-chung-của-bob
+M->B Ok Bob, đây là {khóa bí mật}khóa-chung-của-bob
+
+B->M {some message}khóa-bí-mật
+M->A Xén[{some message}khóa-bí-mật]</blockquote>
+
+
+Mallet sẽ chuyển tiếp dữ liệu giữa Alice và Bob cho đến khi họ trao đổi khóa bí mật. Tại thời điểm này Alice nghĩ rằng mình đang nói chuyện với Bob nên tin tưởng hoàn toàn vào các message do Bob gởi tới. Thực chất không phải là như vậy. Mallet mặc dù không biết khóa bí mật nhưng hoàn toàn có thể xén, thêm hoặc sửa đổi gì đó trên các dữ liệu được gởi từ Bob đến Alice.
+
+**7. Mã xác thực thông điệp (MAC)**
+
+Để ngăn chặn cuộc tấn công man-in-the-middle trên, Alice và Bob có thể dùng thêm mã xác thực thông điệp (Message Authentication code) thường được gọi tắt là MAC. Thuật toán tạo MAC khá đơn giản:
+
+Code:
+
+
+<blockquote>MAC = Digest[some message, khóa bí mật]</blockquote>
+
+
+Mallet không biết khóa bí mật nên không tài nào tính đúng giá trị digest của message. Thậm chí nếu Mallet có cắt xén random các message thì tỉ lệ thành công là rất thấp vì dữ liệu digest vô cùng lớn. Ví dụ, nếu dùng MD5, Alice và Bob có thể gởi kèm MAC 128bit trong các message. Mallet cần trúng giá trị MAC nếu muốn tấn công man-in-the-middle với khả năng thành công là 1/18.446.744.073.709.551.616 khả năng trong một thời gian vô cùng ngắn.
+
+Đây là toàn bộ giao thức:
+
+
+<blockquote>A->B Xin chào!
+B->A Chào, Mình là Bob. Đây là giấy chứng nhận của mình!
+A->B Hãy đưa bằng chứng đi!
+B->A Alice, Mình là Bob đây!
+{digest[Alice, Mình là Bob đây!]}khóa-riêng-của-bob
+A->B Ok Bob, đây là {khóa bí mật}khóa-chung-của-bob
+{some message, MAC}khóa-bí-mật</blockquote>
+
+
+(bài viết của vicky group)

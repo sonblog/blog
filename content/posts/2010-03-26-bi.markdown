@@ -1,0 +1,94 @@
+---
+author: admin
+comments: true
+date: 2010-03-26 04:18:50+00:00
+layout: post
+link: https://quachson.com/bi/
+slug: bi
+title: Business Intelligence (BI)
+wordpress_id: 124
+categories:
+- BI
+tags:
+- BI
+---
+
+**BI** có thể hiểu như gói giải pháp hỗ trợ business của một doanh nghiệp.  Một ví dụ gần nhất là tạo các reports. Trong BI, người ta hay dùng các  công cụ phân tích (analytics) để mổ xẻ dữ liệu của doanh nghiệp và dựa  trên đó đưa ra các quyết định hợp lý. _**Cube **_và _**Data mining**_ là 2 kỹ thuật  được sử dụng nhiều trong BI.
+
+Về lý thuyết mà nói xây dựng cube và data mining không cần phải dựa trên _** data warehouse**_ nhưng trong thực tế có lẽ ít nơi làm như vậy. Thường thì  người ta xây dựng một cơ sở dữ liệu data warehouse trước rồi dựa trên  đó xây dựng các cube và các data mining model.
+
+Công cụ để xây dựng data warehouse được gọi là ETL tool. Có khá nhiều  phần mềm thương mại cũng như open source cho ETL. IBM, Oracle,  Microsoft... đều là các vendor lớn. Nhưng nổi tiếng nhất có lẽ là  Informatica, hiện nay (đầu năm 2010) ở Việt nam có nơi nào làm cái này chưa vì giá  tiền của nó khá là... chát ( thông tin từ anh Vu Quoc Bao - IBM Information Management Sales Specialist ). Open source ETL thì hiện tại mình nghe nói  có **Talend **đang nổi lên. Phần mềm này và một số software khác cho BI đã  được tích hợp để cung cấp các dịch vụ BI dựa trên cloud computing.
+
+BI tools thì thấy trên IT market Mỹ có đánh giá khá cao về **Cognos **(IBM mua  lại, một số sản phẩm của IBM có cấp chứng chỉ như FileNet, Lotus Notes, Cognos là một trong số đó). Các tool thương mại khác như BusinessObject, Oracle BI, IBM Data  Stage, SAP BW, Microsoft BI... cũng được nhiều doanh nghiệp dùng. Open  source thì thấy _**Pentaho **_được đánh giá khá tốt.
+
+Dù sao thì công cụ vẫn chỉ công cụ. Trọng tâm của data warehouse và BI  là design và database. Có làm tốt mấy cái này thì mới phát huy được hết  thế mạnh của nó. Nếu các bạn muốn tìm hiểu về designing data warehouse,  tuyển tập Data Warehouse Toolkit của Ralph Kimball là must-read cho  những ai mới vào nghề.
+
+[![](http://quachson.files.wordpress.com/2010/03/bi001.gif?w=298)](http://quachson.files.wordpress.com/2010/03/bi001.gif)
+
+Data  Warehouse (Kho dữ liệu): Chứa dữ liệu tổng hợp của doanh nghiệp
+
+Data  Mining (Khai phá dữ liệu): Các kỹ thuật dùng để khai phá dữ liệu và phát  hiện tri thức như phân loại (Classification), phân nhóm (clustering),  phát hiện luật kết hợp (Association Rule), Dự đoán (Predcition),…
+
+Business  Analyst (Phân tích kinh Doanh: Các nhà lãnh đạo Doanh nghiệp đưa ra  những quyết định chiến lược đối với hoạt động kinh doanh của doanh  nghiệp.
+
+[![](http://quachson.files.wordpress.com/2010/03/bi003.jpg?w=300)](http://quachson.files.wordpress.com/2010/03/bi003.jpg)
+
+**BI có lợi ích gì?**
+
+BI làm tăng khả năng kiểm soát thông tin của  doanh nghiệp một cách chính xác, hiệu quả từ đó có thể phân tích, khai  phá tri thức giúp doanh nghiệp có thể dự đoán về xu hướng của giá cả  dịch vụ, hành vi khách hàng, phát hiện khách hàng tiềm năng để đề ra các  chiến lược kinh doanh phù hợp nhằm tăng khả năng cạnh tranh doanh  nghiệp.
+
+·        BI giúp cho các doanh nghiệp sử dụng thông  tin một cách hiệu quả, chính xác để thích ứng với môi trường thay đổi  liên tục và cạnh tranh khốc liệt trong kinh doanh.
+
+·        Ra các quyết định kinh doanh hiệu quả hơn
+
+
+
+	
+  * Xác định được vị trí và sức cạnh tranh của  DN
+
+	
+  * Phân tích hành vi khách hàng
+
+	
+  * Xác định  mục đích và chiến lược Marketing
+
+	
+  * Dự đoán tương lai của doanh nghiệp
+
+	
+  * Xây dựng  chiến lược kinh doanh
+
+	
+  * Giữ được khách hàng có giá trị và dự đoán khách hành tiềm  năng
+
+
+**Các  công nghệ hỗ trợ BI (**Technologies  supporting for BI)
+
+·        Kho dữ liệu (Data warehousing),
+
+·        Hệ thống hoạch định nguồn lực Doanh nghiệp  (Enterprise resource planning (ERP) systems)
+
+·        Công nghệ truy vấn và lập báo cáo (Query and  report writing technologies)
+
+·        Công cụ khai phá và phân tích dữ liệu (Data  mining and analytics tools)
+
+·        Hệ thống hỗ trợ ra quyết định (Decision  support systems)
+
+·        Quản lý quan hệ khách hàng (Customer  relation management)
+
+**Lưu  ý:
+**_Mặc  dù chúng ta gọi là Business Intelligence (BI) nhưng khái niệm và các kỹ  thuật  của BI có thể dùng được cho hầu hết các tổ chức kinh tế xã hội  như giáo dục (Education), chính phủ(Government), chăm sóc sức khỏe  (health care)…._
+
+**Các  hoạt động chính của IB (BI Activities)**
+
+•         Hỗ trợ quyết định (decision support),
+
+•         Truy vấn và báo cáo (query and reporting),
+
+•         Phân tích xử lý trực tuyến (online analytical  processing (OLAP)),
+
+•         Phân tích thống kê (statistical analysis),
+
+•         Dự đoán (forecasting),
+
+•         Khai phá dữ liệu (data mining).
