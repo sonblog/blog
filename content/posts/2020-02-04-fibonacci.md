@@ -11,7 +11,7 @@ description: "Fibonacci là gì ? Công thức tính fibonacci như thế nào ?
 ---
 Dãy Fibonacci là dãy vô hạn các số tự nhiên bắt đầu bằng hai phần tử 0 và 1 hoặc 1 và 1, các phần tử sau đó được thiết lập theo quy tắc mỗi phần tử luôn bằng tổng hai phần tử trước nó. Công thức truy hồi của dãy Fibonacci là:
 
-![Công thức Fibonacci](/static/media/6693d2c78bc8132bb9b65be861148ca574a738ef.svg "Công thức fibonacci")
+![Công thức Fibonacci](https://github.com/sonblog/blog/blob/master/static/media/fibonacci.svg "Công thức fibonacci")
 
 f(0) = 0
 
