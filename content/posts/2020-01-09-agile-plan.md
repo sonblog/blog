@@ -7,27 +7,29 @@ link: https://quachson.com/agile-plan/
 slug: agile-plan
 title: Agile plan
 wordpress_id: 1979
-categories:
-- Agile
+category: "Agile"
 tags:
 - Agile
+description: "Cách thực hiện scrum trong 2 tuần là như thế nào ?"
 ---
 
 Nói đến Agile thì ai cũng đã nghe qua, cũng đã biết nhưng rất ít người thật sự hiểu rõ và áp dụng đúng.
-
-
-
  	
   * 1 sprint: thường là 2 tuần, 1 tuần thì quá ngắn dành cho mấy project nhỏ, 1 tuần thì dùng Kanban cho rồi, hem cần dùng scrum.
 
  	
-  * Team size: ít nhất là 5 người (ít hơn thì ko nên có scrum master tốn mất 1 resource) , nhiều nhất là 10 người thì team hoạt động mới hiểu quả.
+  * Team size: ít nhất là 5 người (ít hơn thì ko nên có scrum master tốn mất 1 resource) , nhiều nhất là 10 người, tốt nhất chính là lấy bình quân, 7 người thì team hoạt động mới hiểu quả.
 
 
 Sau đây là ví dụ planing sprint cho 2 tuần có gì
 
-[table id=2 /]
+| T2                                  | T3               | T4              | T5             | T6             |
+|-------------------------------------|------------------|-----------------|----------------|----------------|
+| Retrospective, Knowledge sharing    | Planning 2 (how) | Daily, Code     | Daily, Code    | Daily, Code    |
 
+| T2                                  | T3               | T4              | T5             | T6             |
+|-------------------------------------|------------------|-----------------|----------------|----------------|
+| Daily, Code                         | Daily, Code      | Planning 1 (What)| Daily, Code   | Daily, Code    | 
  	
   * Knowledge sharing: chia sẽ về business, về tính năng, về kỹ thuật mà mình làm trong sprint, về project cho người nào chưa biết.
 
