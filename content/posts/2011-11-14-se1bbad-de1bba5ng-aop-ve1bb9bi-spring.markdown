@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-11-14 03:25:04+00:00
-layout: post
+template: "post"
 link: https://quachson.com/s%e1%bb%ad-d%e1%bb%a5ng-aop-v%e1%bb%9bi-spring/
 slug: s%e1%bb%ad-d%e1%bb%a5ng-aop-v%e1%bb%9bi-spring
 title: Sử dụng AOP với Spring

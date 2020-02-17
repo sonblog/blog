@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-10-02 02:01:02+00:00
-layout: post
+template: "post"
 link: https://quachson.com/kb-mb-gb-tb-pb-eb-zb-yb/
 slug: kb-mb-gb-tb-pb-eb-zb-yb
 title: KB MB GB TB PB EB ZB YB

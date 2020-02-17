@@ -2,7 +2,7 @@
 author: client
 comments: false
 date: 2016-12-10 06:22:18+00:00
-layout: post
+template: "post"
 link: https://quachson.com/machine-learning-classification-phan-3/
 slug: machine-learning-classification-phan-3
 title: Machine Learning – Classification – phần 3

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-08-17 17:21:01+00:00
-layout: post
+template: "post"
 link: https://quachson.com/di%e1%bb%81u-ki-di%e1%bb%87u-c%e1%bb%a7a-trai-tim/
 slug: di%e1%bb%81u-ki-di%e1%bb%87u-c%e1%bb%a7a-trai-tim
 title: Điều kì diệu của trái tim

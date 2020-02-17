@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-09-17 06:14:41+00:00
-layout: post
+template: "post"
 link: https://quachson.com/gi%e1%bb%9bi-thi%e1%bb%87u-v%e1%bb%81-spring-framwork/
 slug: gi%e1%bb%9bi-thi%e1%bb%87u-v%e1%bb%81-spring-framwork
 title: Giới thiệu về Spring framwork

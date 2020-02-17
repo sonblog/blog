@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-08-15 09:12:02+00:00
-layout: post
+template: "post"
 link: https://quachson.com/mediator-pattern/
 slug: mediator-pattern
 title: Mediator Pattern

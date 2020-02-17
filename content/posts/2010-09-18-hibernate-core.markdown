@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-09-18 06:29:20+00:00
-layout: post
+template: "post"
 link: https://quachson.com/hibernate-core/
 slug: hibernate-core
 title: Hibernate Core Notes

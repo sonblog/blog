@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-24 17:49:27+00:00
-layout: post
+template: "post"
 link: https://quachson.com/topic-11-reported-speed/
 slug: topic-11-reported-speed
 title: 'Topic 11: Reported Speed'

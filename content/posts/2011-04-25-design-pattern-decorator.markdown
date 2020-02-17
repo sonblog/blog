@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 16:38:26+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-decorator/
 slug: design-pattern-decorator
 title: 'Design Pattern: Decorator'

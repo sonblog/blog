@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-03 02:52:00+00:00
-layout: post
+template: "post"
 link: https://quachson.com/nh%e1%bb%afng-di%e1%bb%81u-c%e1%ba%a7n-bi%e1%ba%bft-v%e1%bb%81-ssl/
 slug: nh%e1%bb%afng-di%e1%bb%81u-c%e1%ba%a7n-bi%e1%ba%bft-v%e1%bb%81-ssl
 title: Những điều cần biết về SSL

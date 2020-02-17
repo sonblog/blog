@@ -2,7 +2,7 @@
 author: client
 comments: false
 date: 2016-12-12 07:37:32+00:00
-layout: post
+template: "post"
 link: https://quachson.com/machine-learning-la-gi/
 slug: machine-learning-la-gi
 title: Machine Learning là gì ?

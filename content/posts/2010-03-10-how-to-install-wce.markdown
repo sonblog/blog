@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-10 08:12:49+00:00
-layout: post
+template: "post"
 link: https://quachson.com/how-to-install-wce/
 slug: how-to-install-wce
 title: How to install WCE ( Websphere Commerce Enterprise) ?

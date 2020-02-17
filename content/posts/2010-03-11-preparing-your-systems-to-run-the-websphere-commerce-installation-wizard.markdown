@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-11 02:24:11+00:00
-layout: post
+template: "post"
 link: https://quachson.com/preparing-your-systems-to-run-the-websphere-commerce-installation-wizard/
 slug: preparing-your-systems-to-run-the-websphere-commerce-installation-wizard
 title: Preparing your systems to run the WebSphere Commerce installation wizard

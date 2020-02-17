@@ -2,7 +2,7 @@
 author: client
 comments: false
 date: 2017-10-28 14:40:19+00:00
-layout: post
+template: "post"
 link: https://quachson.com/xuat-phat-thap/
 slug: xuat-phat-thap
 title: Xuất phát thấp

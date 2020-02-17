@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2012-02-11 06:02:57+00:00
-layout: post
+template: "post"
 link: https://quachson.com/how-to-create-template-for-wp/
 published: false
 slug: how-to-create-template-for-wp

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-15 04:38:21+00:00
-layout: post
+template: "post"
 link: https://quachson.com/topic-2/
 slug: topic-2
 title: 9 Tenses

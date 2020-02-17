@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-11-08 08:44:37+00:00
-layout: post
+template: "post"
 link: https://quachson.com/dealing-with-org-hibernate-lazyinitializationexception/
 slug: dealing-with-org-hibernate-lazyinitializationexception
 title: Dealing with org.hibernate.LazyInitializationException

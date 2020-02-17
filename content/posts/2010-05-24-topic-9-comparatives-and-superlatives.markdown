@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-24 16:51:36+00:00
-layout: post
+template: "post"
 link: https://quachson.com/topic-9-comparatives-and-superlatives/
 slug: topic-9-comparatives-and-superlatives
 title: 'Topic 9: Comparatives and Superlatives'

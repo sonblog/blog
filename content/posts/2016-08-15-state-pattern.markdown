@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-08-15 09:14:00+00:00
-layout: post
+template: "post"
 link: https://quachson.com/state-pattern/
 slug: state-pattern
 title: State Pattern

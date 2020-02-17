@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-08-27 07:51:49+00:00
-layout: post
+template: "post"
 link: https://quachson.com/module-search-of-ibm-portal/
 published: false
 slug: module-search-of-ibm-portal

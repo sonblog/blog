@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2014-09-06 08:31:45+00:00
-layout: post
+template: "post"
 link: https://quachson.com/wordpress-create-screenshot-for-theme/
 published: false
 slug: wordpress-create-screenshot-for-theme

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-08 09:54:53+00:00
-layout: post
+template: "post"
 link: https://quachson.com/hibernate-mapping-class-property/
 slug: hibernate-mapping-class-property
 title: Vector or ArrayList in Java

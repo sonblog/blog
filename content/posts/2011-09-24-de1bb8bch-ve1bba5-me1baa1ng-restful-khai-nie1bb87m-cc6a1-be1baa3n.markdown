@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-09-24 18:15:14+00:00
-layout: post
+template: "post"
 link: https://quachson.com/d%e1%bb%8bch-v%e1%bb%a5-m%e1%ba%a1ng-restful-khai-ni%e1%bb%87m-c%c6%a1-b%e1%ba%a3n/
 slug: d%e1%bb%8bch-v%e1%bb%a5-m%e1%ba%a1ng-restful-khai-ni%e1%bb%87m-c%c6%a1-b%e1%ba%a3n
 title: 'Dịch vụ mạng RESTful: Khái niệm cơ bản'

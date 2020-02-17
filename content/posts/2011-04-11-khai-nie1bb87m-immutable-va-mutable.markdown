@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-11 04:30:13+00:00
-layout: post
+template: "post"
 link: https://quachson.com/khai-ni%e1%bb%87m-immutable-va-mutable/
 slug: khai-ni%e1%bb%87m-immutable-va-mutable
 title: Khái niệm Immutable và Mutable

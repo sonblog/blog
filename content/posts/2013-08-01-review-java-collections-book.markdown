@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2013-08-01 15:07:21+00:00
-layout: post
+template: "post"
 link: https://quachson.com/review-java-collections-book/
 slug: review-java-collections-book
 title: Review Java Collections Book part 1

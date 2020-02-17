@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-02-28 15:41:23+00:00
-layout: post
+template: "post"
 link: https://quachson.com/changing-mainboard/
 slug: changing-mainboard
 title: Changing Mainboard

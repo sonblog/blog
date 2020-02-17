@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-17 17:50:58+00:00
-layout: post
+template: "post"
 link: https://quachson.com/question-tag/
 slug: question-tag
 title: Question Tag

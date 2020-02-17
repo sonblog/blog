@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-02-23 16:09:37+00:00
-layout: post
+template: "post"
 link: https://quachson.com/writing-1-60p/
 published: false
 slug: writing-1-60p

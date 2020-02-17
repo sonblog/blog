@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-27 07:09:05+00:00
-layout: post
+template: "post"
 link: https://quachson.com/topic-8-conditional-sentense/
 slug: topic-8-conditional-sentense
 title: 'Topic 8: Conditional Sentense'

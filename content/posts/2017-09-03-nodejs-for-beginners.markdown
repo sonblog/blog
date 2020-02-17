@@ -2,7 +2,7 @@
 author: client
 comments: false
 date: 2017-09-03 07:24:05+00:00
-layout: post
+template: "post"
 link: https://quachson.com/nodejs-for-beginners/
 slug: nodejs-for-beginners
 title: NodeJS for beginners

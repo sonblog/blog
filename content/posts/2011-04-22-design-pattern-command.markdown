@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-22 10:30:45+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-command/
 slug: design-pattern-command
 title: 'Design Pattern: Command'

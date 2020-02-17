@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-06-19 15:56:18+00:00
-layout: post
+template: "post"
 link: https://quachson.com/hello-portlet-with-myeclipse-over-6-5/
 slug: hello-portlet-with-myeclipse-over-6-5
 title: Hello Portlet with MyEclipse over 6.5

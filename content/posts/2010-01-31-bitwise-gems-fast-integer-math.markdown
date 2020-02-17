@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-01-31 01:01:46+00:00
-layout: post
+template: "post"
 link: https://quachson.com/bitwise-gems-fast-integer-math/
 slug: bitwise-gems-fast-integer-math
 title: Bitwise gems - fast integer math

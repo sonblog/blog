@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-06-21 15:32:39+00:00
-layout: post
+template: "post"
 link: https://quachson.com/blackberry-bis-la-gi-va-bes-la-gi/
 published: false
 slug: blackberry-bis-la-gi-va-bes-la-gi

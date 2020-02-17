@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-22 07:41:45+00:00
-layout: post
+template: "post"
 link: https://quachson.com/what-is-classloader-in-java/
 slug: what-is-classloader-in-java
 title: What is ClassLoader in Java ?

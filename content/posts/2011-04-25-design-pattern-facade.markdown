@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 16:44:06+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-facade/
 slug: design-pattern-facade
 title: 'Design Pattern: Facade'

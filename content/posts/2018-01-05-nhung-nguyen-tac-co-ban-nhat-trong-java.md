@@ -1,16 +1,15 @@
 ---
 author: hanson
-comments: false
+draft: false
 date: 2018-01-05 14:31:24+00:00
-layout: post
+template: "post"
 link: https://quachson.com/nhung-nguyen-tac-co-ban-nhat-trong-java/
 slug: nhung-nguyen-tac-co-ban-nhat-trong-java
 title: Những nguyên tắc cơ bản nhất trong Java
 wordpress_id: 1446
-categories:
-- Java
-tags:
-- Java
+category: "Java"
+tags: 
+- "Java"
 ---
 
 1/ Khi constructor() có quá nhiều parameters thì nên dùng Builder. (vì quá đơn giản nên ko cần ví dụ link tham khảo)

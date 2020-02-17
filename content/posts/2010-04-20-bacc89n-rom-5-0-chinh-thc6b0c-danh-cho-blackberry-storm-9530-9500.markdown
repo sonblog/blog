@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-04-20 13:47:26+00:00
-layout: post
+template: "post"
 link: https://quachson.com/ba%cc%89n-rom-5-0-chinh-th%c6%b0c-danh-cho-blackberry-storm-9530-9500/
 published: false
 slug: ba%cc%89n-rom-5-0-chinh-th%c6%b0c-danh-cho-blackberry-storm-9530-9500

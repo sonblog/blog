@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-08-11 09:35:07+00:00
-layout: post
+template: "post"
 link: https://quachson.com/chain-of-responsibility-pattern/
 slug: chain-of-responsibility-pattern
 title: Chain of Responsibility Pattern

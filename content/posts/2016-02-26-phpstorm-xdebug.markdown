@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-02-26 02:23:07+00:00
-layout: post
+template: "post"
 link: https://quachson.com/phpstorm-xdebug/
 slug: phpstorm-xdebug
 title: PhpStorm & XDEBUG

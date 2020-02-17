@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-01-31 02:13:01+00:00
-layout: post
+template: "post"
 link: https://quachson.com/keyword-final-in-java/
 slug: keyword-final-in-java
 title: Keyword "final" in java

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2012-01-12 08:19:55+00:00
-layout: post
+template: "post"
 link: https://quachson.com/java-object-ordering/
 slug: java-object-ordering
 title: Java Object Ordering

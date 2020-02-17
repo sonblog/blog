@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-05-26 07:35:57+00:00
-layout: post
+template: "post"
 link: https://quachson.com/spring-document-notes/
 published: false
 slug: spring-document-notes

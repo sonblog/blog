@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-01-31 01:00:22+00:00
-layout: post
+template: "post"
 link: https://quachson.com/what-is-the-design-pattern/
 slug: what-is-the-design-pattern
 title: What is the design pattern?

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-10 08:35:41+00:00
-layout: post
+template: "post"
 link: https://quachson.com/default-port-of-wce/
 slug: default-port-of-wce
 title: Default port of WCE

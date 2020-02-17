@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-06 02:39:33+00:00
-layout: post
+template: "post"
 link: https://quachson.com/hibernate-mapping-with-db2/
 slug: hibernate-mapping-with-db2
 title: Hibernate Mapping with DB2

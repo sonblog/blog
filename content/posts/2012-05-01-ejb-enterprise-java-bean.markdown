@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2012-05-01 12:19:33+00:00
-layout: post
+template: "post"
 link: https://quachson.com/ejb-enterprise-java-bean/
 slug: ejb-enterprise-java-bean
 title: EJB - Enterprise Java Bean

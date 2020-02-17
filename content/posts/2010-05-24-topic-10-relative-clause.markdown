@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-24 17:27:39+00:00
-layout: post
+template: "post"
 link: https://quachson.com/topic-10-relative-clause/
 slug: topic-10-relative-clause
 title: 'Topic 10: Relative Clause'

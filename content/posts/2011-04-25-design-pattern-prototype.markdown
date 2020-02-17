@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 06:47:01+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-prototype/
 slug: design-pattern-prototype
 title: 'Design Pattern: Prototype'

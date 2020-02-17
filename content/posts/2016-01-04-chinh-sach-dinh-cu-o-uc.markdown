@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-01-04 06:36:59+00:00
-layout: post
+template: "post"
 link: https://quachson.com/chinh-sach-dinh-cu-o-uc/
 slug: chinh-sach-dinh-cu-o-uc
 title: Chính sách định cư ở Úc

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-12-18 16:22:35+00:00
-layout: post
+template: "post"
 link: https://quachson.com/nh%e1%bb%afng-m%e1%ba%b9o-khi-dung-blackberry/
 published: false
 slug: nh%e1%bb%afng-m%e1%ba%b9o-khi-dung-blackberry

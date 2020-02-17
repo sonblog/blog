@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-08-25 02:06:56+00:00
-layout: post
+template: "post"
 link: https://quachson.com/unicode-with-ireport/
 slug: unicode-with-ireport
 title: Unicode with iReport

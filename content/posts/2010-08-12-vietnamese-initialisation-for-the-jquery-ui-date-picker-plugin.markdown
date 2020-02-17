@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-08-12 02:12:20+00:00
-layout: post
+template: "post"
 link: https://quachson.com/vietnamese-initialisation-for-the-jquery-ui-date-picker-plugin/
 slug: vietnamese-initialisation-for-the-jquery-ui-date-picker-plugin
 title: Vietnamese initialisation for the jQuery UI date picker plugin

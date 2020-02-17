@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 06:31:56+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-factory/
 slug: design-pattern-factory
 title: 'Design Pattern: Factory'

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-08 02:13:07+00:00
-layout: post
+template: "post"
 link: https://quachson.com/lotus-notes/
 published: false
 slug: lotus-notes

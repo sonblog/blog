@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-01-31 02:09:13+00:00
-layout: post
+template: "post"
 link: https://quachson.com/polymorphism-in-java/
 slug: polymorphism-in-java
 title: Polymorphism in Java

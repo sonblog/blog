@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2015-09-17 07:21:09+00:00
-layout: post
+template: "post"
 link: https://quachson.com/10-cai-khong-han-la-xau-cua-uc-khien-ban-phat-dien/
 slug: 10-cai-khong-han-la-xau-cua-uc-khien-ban-phat-dien
 title: 10 cái (không hẳn là) xấu của Úc khiến bạn phát điên

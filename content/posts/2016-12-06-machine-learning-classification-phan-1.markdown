@@ -2,7 +2,7 @@
 author: admin
 comments: false
 date: 2016-12-06 13:44:46+00:00
-layout: post
+template: "post"
 link: https://quachson.com/machine-learning-classification-phan-1/
 slug: machine-learning-classification-phan-1
 title: Machine Learning - Classification - phần 1

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-15 03:47:45+00:00
-layout: post
+template: "post"
 link: https://quachson.com/topic-1/
 slug: topic-1
 title: Topic 1

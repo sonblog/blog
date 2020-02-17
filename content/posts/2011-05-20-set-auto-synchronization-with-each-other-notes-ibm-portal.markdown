@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-05-20 03:19:29+00:00
-layout: post
+template: "post"
 link: https://quachson.com/set-auto-synchronization-with-each-other-notes-ibm-portal/
 published: false
 slug: set-auto-synchronization-with-each-other-notes-ibm-portal

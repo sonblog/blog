@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-22 07:34:08+00:00
-layout: post
+template: "post"
 link: https://quachson.com/java-design-pattern/
 slug: java-design-pattern
 title: Java Design Pattern

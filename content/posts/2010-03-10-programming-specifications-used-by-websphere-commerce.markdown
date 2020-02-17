@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-10 09:46:46+00:00
-layout: post
+template: "post"
 link: https://quachson.com/programming-specifications-used-by-websphere-commerce/
 slug: programming-specifications-used-by-websphere-commerce
 title: Programming specifications used by WebSphere Commerce

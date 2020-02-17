@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-06-21 17:38:52+00:00
-layout: post
+template: "post"
 link: https://quachson.com/ro-r%e1%bb%89-cac-goi-c%c6%b0%e1%bb%9bc-bisbes-t%e1%bb%ab-mobifone/
 published: false
 slug: ro-r%e1%bb%89-cac-goi-c%c6%b0%e1%bb%9bc-bisbes-t%e1%bb%ab-mobifone

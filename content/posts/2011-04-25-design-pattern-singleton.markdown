@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 06:43:02+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-singleton/
 slug: design-pattern-singleton
 title: 'Design Pattern: Singleton'

@@ -2,7 +2,7 @@
 author: client
 comments: false
 date: 2017-09-25 16:05:25+00:00
-layout: post
+template: "post"
 link: https://quachson.com/phim-tat-mac-os-x-toan-tap/
 slug: phim-tat-mac-os-x-toan-tap
 title: Phím tắt Mac OS X toàn tập

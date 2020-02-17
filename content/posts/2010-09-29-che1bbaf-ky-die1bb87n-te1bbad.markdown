@@ -2,7 +2,7 @@
 author: admin
 comments: false
 date: 2010-09-29 08:30:35+00:00
-layout: post
+template: "post"
 link: https://quachson.com/ch%e1%bb%af-ky-di%e1%bb%87n-t%e1%bb%ad/
 slug: ch%e1%bb%af-ky-di%e1%bb%87n-t%e1%bb%ad
 title: Chữ ký điện tử

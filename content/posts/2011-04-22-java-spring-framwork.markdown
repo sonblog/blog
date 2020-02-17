@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-22 04:10:35+00:00
-layout: post
+template: "post"
 link: https://quachson.com/java-spring-framwork/
 slug: java-spring-framwork
 title: Java Spring Framework

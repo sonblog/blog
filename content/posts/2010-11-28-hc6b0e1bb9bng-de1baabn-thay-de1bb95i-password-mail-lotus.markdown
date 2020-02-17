@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-11-28 13:24:29+00:00
-layout: post
+template: "post"
 link: https://quachson.com/h%c6%b0%e1%bb%9bng-d%e1%ba%abn-thay-d%e1%bb%95i-password-mail-lotus/
 published: false
 slug: h%c6%b0%e1%bb%9bng-d%e1%ba%abn-thay-d%e1%bb%95i-password-mail-lotus

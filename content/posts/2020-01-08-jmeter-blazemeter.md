@@ -2,7 +2,7 @@
 author: hanson
 comments: false
 date: 2020-01-08 14:14:32+00:00
-layout: post
+template: "post"
 link: https://quachson.com/jmeter-blazemeter/
 slug: jmeter-blazemeter
 title: JMeter và BlazeMeter chrome extension

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 16:41:40+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-composite/
 slug: design-pattern-composite
 title: 'Design Pattern: Composite'

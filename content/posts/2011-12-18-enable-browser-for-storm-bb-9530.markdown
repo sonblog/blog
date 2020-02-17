@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-12-18 15:56:08+00:00
-layout: post
+template: "post"
 link: https://quachson.com/enable-browser-for-storm-bb-9530/
 published: false
 slug: enable-browser-for-storm-bb-9530

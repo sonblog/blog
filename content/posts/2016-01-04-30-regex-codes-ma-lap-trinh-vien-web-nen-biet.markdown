@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-01-04 06:41:19+00:00
-layout: post
+template: "post"
 link: https://quachson.com/30-regex-codes-ma-lap-trinh-vien-web-nen-biet/
 slug: 30-regex-codes-ma-lap-trinh-vien-web-nen-biet
 title: 30 regex codes mà lập trình viên web nên biết

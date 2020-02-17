@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 16:48:02+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-proxy/
 slug: design-pattern-proxy
 title: 'Design Pattern: Proxy'

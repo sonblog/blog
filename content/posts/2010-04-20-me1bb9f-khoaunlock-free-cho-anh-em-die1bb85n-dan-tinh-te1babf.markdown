@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-04-20 15:27:22+00:00
-layout: post
+template: "post"
 link: https://quachson.com/m%e1%bb%9f-khoaunlock-free-cho-anh-em-di%e1%bb%85n-dan-tinh-t%e1%ba%bf/
 published: false
 slug: m%e1%bb%9f-khoaunlock-free-cho-anh-em-di%e1%bb%85n-dan-tinh-t%e1%ba%bf

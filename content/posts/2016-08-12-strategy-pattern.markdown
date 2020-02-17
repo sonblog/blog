@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-08-12 07:40:44+00:00
-layout: post
+template: "post"
 link: https://quachson.com/strategy-pattern/
 slug: strategy-pattern
 title: Strategy Pattern

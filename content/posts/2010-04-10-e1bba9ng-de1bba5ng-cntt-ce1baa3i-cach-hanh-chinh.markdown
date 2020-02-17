@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-04-10 04:11:31+00:00
-layout: post
+template: "post"
 link: https://quachson.com/%e1%bb%a9ng-d%e1%bb%a5ng-cntt-c%e1%ba%a3i-cach-hanh-chinh/
 slug: '%e1%bb%a9ng-d%e1%bb%a5ng-cntt-c%e1%ba%a3i-cach-hanh-chinh'
 title: Ứng dụng CNTT cải cách hành chính

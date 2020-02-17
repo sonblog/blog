@@ -2,7 +2,7 @@
 author: client
 comments: false
 date: 2016-12-12 03:31:42+00:00
-layout: post
+template: "post"
 link: https://quachson.com/nhung-han-che-cua-classification/
 slug: nhung-han-che-cua-classification
 title: Những hạn chế của Classification

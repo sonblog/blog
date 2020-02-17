@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-12 11:04:51+00:00
-layout: post
+template: "post"
 link: https://quachson.com/hibernate-batch-processing-in-java/
 slug: hibernate-batch-processing-in-java
 title: Hibernate Batch processing in Java

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-12-04 16:19:00+00:00
-layout: post
+template: "post"
 link: https://quachson.com/spring-aop-v%e1%bb%9bi-aspectj/
 slug: spring-aop-v%e1%bb%9bi-aspectj
 title: Spring AOP với AspectJ

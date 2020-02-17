@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-04-07 16:24:54+00:00
-layout: post
+template: "post"
 link: https://quachson.com/virtualbox/
 slug: virtualbox
 title: VirtualBox

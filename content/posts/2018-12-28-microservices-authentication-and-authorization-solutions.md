@@ -2,7 +2,7 @@
 author: hanson
 comments: false
 date: 2018-12-28 02:15:22+00:00
-layout: post
+template: "post"
 link: https://quachson.com/microservices-authentication-and-authorization-solutions/
 slug: microservices-authentication-and-authorization-solutions
 title: Microservices Authentication and Authorization Solutions

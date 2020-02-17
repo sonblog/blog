@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-12-18 06:46:39+00:00
-layout: post
+template: "post"
 link: https://quachson.com/net-core-notes/
 slug: net-core-notes
 title: .NET Core notes

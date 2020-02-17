@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-12-25 08:38:47+00:00
-layout: post
+template: "post"
 link: https://quachson.com/net-and-java-certification-2/
 slug: net-and-java-certification-2
 title: .NET and Java Certification

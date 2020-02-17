@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-11-29 03:50:13+00:00
-layout: post
+template: "post"
 link: https://quachson.com/h%c6%b0%e1%bb%9bng-d%e1%ba%abn-s%e1%bb%ad-d%e1%bb%a5ng-h%e1%bb%87-th%e1%bb%91ng-it-helpdesk/
 published: false
 slug: h%c6%b0%e1%bb%9bng-d%e1%ba%abn-s%e1%bb%ad-d%e1%bb%a5ng-h%e1%bb%87-th%e1%bb%91ng-it-helpdesk

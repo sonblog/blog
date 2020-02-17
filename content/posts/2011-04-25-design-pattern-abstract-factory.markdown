@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 06:38:57+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-abstract-factory/
 slug: design-pattern-abstract-factory
 title: 'Design Pattern: Abstract Factory'

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2012-03-28 17:43:23+00:00
-layout: post
+template: "post"
 link: https://quachson.com/strut-1/
 slug: strut-1
 title: review JSP/Servlet

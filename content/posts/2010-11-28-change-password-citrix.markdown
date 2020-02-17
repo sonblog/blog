@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-11-28 12:56:45+00:00
-layout: post
+template: "post"
 link: https://quachson.com/change-password-citrix/
 slug: change-password-citrix
 title: Hướng dẫn thay đổi password citrix

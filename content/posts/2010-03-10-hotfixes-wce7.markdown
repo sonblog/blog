@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-10 10:04:48+00:00
-layout: post
+template: "post"
 link: https://quachson.com/hotfixes-wce7/
 published: false
 slug: hotfixes-wce7

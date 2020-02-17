@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-08-12 06:51:06+00:00
-layout: post
+template: "post"
 link: https://quachson.com/visitor-pattern/
 slug: visitor-pattern
 title: Visitor Pattern

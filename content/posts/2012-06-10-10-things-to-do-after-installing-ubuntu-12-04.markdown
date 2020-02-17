@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2012-06-10 04:57:39+00:00
-layout: post
+template: "post"
 link: https://quachson.com/10-things-to-do-after-installing-ubuntu-12-04/
 slug: 10-things-to-do-after-installing-ubuntu-12-04
 title: 10 Things to Do After Installing Ubuntu 12.04

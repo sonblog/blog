@@ -2,7 +2,7 @@
 author: hanson
 comments: false
 date: 2020-01-09 07:50:05+00:00
-layout: post
+template: "post"
 link: https://quachson.com/agile-plan/
 slug: agile-plan
 title: Agile plan

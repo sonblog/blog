@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-23 04:06:22+00:00
-layout: post
+template: "post"
 link: https://quachson.com/css-framework/
 slug: css-framework
 title: CSS framework

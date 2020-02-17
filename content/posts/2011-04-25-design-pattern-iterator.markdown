@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-25 06:18:51+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern-iterator/
 slug: design-pattern-iterator
 title: 'Design Pattern: Iterator'

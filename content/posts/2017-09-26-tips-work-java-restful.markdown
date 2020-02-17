@@ -2,7 +2,7 @@
 author: client
 comments: false
 date: 2017-09-26 15:51:40+00:00
-layout: post
+template: "post"
 link: https://quachson.com/tips-work-java-restful/
 slug: tips-work-java-restful
 title: Some tips work with Java restful.

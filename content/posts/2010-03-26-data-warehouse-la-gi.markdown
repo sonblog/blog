@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-26 05:03:15+00:00
-layout: post
+template: "post"
 link: https://quachson.com/data-warehouse-la-gi/
 slug: data-warehouse-la-gi
 title: Data Warehouse là gì

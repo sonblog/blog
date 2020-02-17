@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-02-25 04:45:10+00:00
-layout: post
+template: "post"
 link: https://quachson.com/adding-signatures-to-mail-of-lotus-notes/
 published: false
 slug: adding-signatures-to-mail-of-lotus-notes

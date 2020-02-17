@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2012-01-12 08:11:10+00:00
-layout: post
+template: "post"
 link: https://quachson.com/java-comparator/
 slug: java-comparator
 title: Java Comparator

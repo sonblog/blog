@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-08-11 07:24:35+00:00
-layout: post
+template: "post"
 link: https://quachson.com/observer-pattern/
 slug: observer-pattern
 title: Observer Pattern

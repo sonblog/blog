@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-10-03 03:09:10+00:00
-layout: post
+template: "post"
 link: https://quachson.com/mfu-most-frequency-used-cache-code/
 slug: mfu-most-frequency-used-cache-code
 title: MFU (Most Frequency Used)  cache code

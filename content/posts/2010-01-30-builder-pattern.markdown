@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-01-30 17:15:29+00:00
-layout: post
+template: "post"
 link: https://quachson.com/builder-pattern/
 slug: builder-pattern
 title: Builder Pattern

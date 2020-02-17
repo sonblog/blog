@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-11 04:07:55+00:00
-layout: post
+template: "post"
 link: https://quachson.com/different-get-and-load-in-hibernate/
 slug: different-get-and-load-in-hibernate
 title: Different Get and Load in Hibernate

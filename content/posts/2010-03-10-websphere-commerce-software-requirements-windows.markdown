@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-10 08:47:40+00:00
-layout: post
+template: "post"
 link: https://quachson.com/websphere-commerce-software-requirements-windows/
 slug: websphere-commerce-software-requirements-windows
 title: WebSphere Commerce software requirements - Windows

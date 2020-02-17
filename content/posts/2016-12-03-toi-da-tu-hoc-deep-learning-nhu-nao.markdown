@@ -2,7 +2,7 @@
 author: admin
 comments: false
 date: 2016-12-03 06:49:42+00:00
-layout: post
+template: "post"
 link: https://quachson.com/toi-da-tu-hoc-deep-learning-nhu-nao/
 slug: toi-da-tu-hoc-deep-learning-nhu-nao
 title: Tôi đã tự học Deep Learning như thế nào

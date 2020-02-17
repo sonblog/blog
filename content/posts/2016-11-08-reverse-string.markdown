@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-11-08 15:51:10+00:00
-layout: post
+template: "post"
 link: https://quachson.com/reverse-string/
 slug: reverse-string
 title: Reverse String (Đảo chuỗi)

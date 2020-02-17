@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-17 18:15:22+00:00
-layout: post
+template: "post"
 link: https://quachson.com/the-passive-voice/
 slug: the-passive-voice
 title: The Passive Voice

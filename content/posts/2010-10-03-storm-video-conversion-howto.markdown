@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-10-03 05:46:57+00:00
-layout: post
+template: "post"
 link: https://quachson.com/storm-video-conversion-howto/
 published: false
 slug: storm-video-conversion-howto

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-04-20 15:20:27+00:00
-layout: post
+template: "post"
 link: https://quachson.com/up-rom-cho-blackberry/
 published: false
 slug: up-rom-cho-blackberry

@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-03-26 04:18:50+00:00
-layout: post
+template: "post"
 link: https://quachson.com/bi/
 slug: bi
 title: Business Intelligence (BI)

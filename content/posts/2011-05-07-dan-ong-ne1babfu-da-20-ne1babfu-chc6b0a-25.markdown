@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-05-07 16:53:36+00:00
-layout: post
+template: "post"
 link: https://quachson.com/dan-ong-n%e1%ba%bfu-da-20-n%e1%ba%bfu-ch%c6%b0a-25/
 slug: dan-ong-n%e1%ba%bfu-da-20-n%e1%ba%bfu-ch%c6%b0a-25
 title: Đàn ông-nếu đã 20, nếu chưa 25

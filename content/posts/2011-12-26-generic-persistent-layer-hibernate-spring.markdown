@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-12-26 09:47:56+00:00
-layout: post
+template: "post"
 link: https://quachson.com/generic-persistent-layer-hibernate-spring/
 slug: generic-persistent-layer-hibernate-spring
 title: Generic Persistent Layer Hibernate and spring 3.1

@@ -2,7 +2,7 @@
 author: hanson
 comments: false
 date: 2018-11-27 04:59:37+00:00
-layout: post
+template: "post"
 link: https://quachson.com/visa-f-1-cpt-opt-h1b-la-gi/
 slug: visa-f-1-cpt-opt-h1b-la-gi
 title: Visa F-1, CPT, OPT, H1B là gì ?

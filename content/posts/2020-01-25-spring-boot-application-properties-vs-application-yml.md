@@ -2,7 +2,7 @@
 author: hanson
 comments: false
 date: 2020-01-25 05:22:22+00:00
-layout: post
+template: "post"
 link: https://quachson.com/spring-boot-application-properties-vs-application-yml/
 slug: spring-boot-application-properties-vs-application-yml
 title: Spring boot | application.properties vs application.yml

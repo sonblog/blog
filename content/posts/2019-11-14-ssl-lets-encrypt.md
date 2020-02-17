@@ -2,7 +2,7 @@
 author: hanson
 comments: false
 date: 2019-11-14 16:35:19+00:00
-layout: post
+template: "post"
 link: https://quachson.com/ssl-lets-encrypt/
 slug: ssl-lets-encrypt
 title: SSL Lets Encrypt with Beanstalk Elasticsearch Amazon

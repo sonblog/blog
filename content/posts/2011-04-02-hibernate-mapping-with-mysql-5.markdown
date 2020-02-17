@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2011-04-02 07:12:37+00:00
-layout: post
+template: "post"
 link: https://quachson.com/hibernate-mapping-with-mysql-5/
 slug: hibernate-mapping-with-mysql-5
 title: Hibernate Mapping with MySQL 5

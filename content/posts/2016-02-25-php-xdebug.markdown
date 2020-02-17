@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-02-25 02:59:02+00:00
-layout: post
+template: "post"
 link: https://quachson.com/php-xdebug/
 slug: php-xdebug
 title: PHP & XDEBUG

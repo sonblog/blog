@@ -2,7 +2,7 @@
 author: quachson
 comments: true
 date: 2016-08-09 12:21:30+00:00
-layout: post
+template: "post"
 link: https://quachson.com/design-pattern/
 slug: design-pattern
 title: Design Patterns

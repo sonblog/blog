@@ -2,7 +2,7 @@
 author: hanson
 comments: false
 date: 2018-07-13 13:22:41+00:00
-layout: post
+template: "post"
 link: https://quachson.com/singapore-va-cac-loai-passport-lam-viec/
 slug: singapore-va-cac-loai-passport-lam-viec
 title: Singapore và các loại passport làm việc

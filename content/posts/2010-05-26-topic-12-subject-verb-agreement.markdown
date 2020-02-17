@@ -2,7 +2,7 @@
 author: admin
 comments: true
 date: 2010-05-26 17:16:29+00:00
-layout: post
+template: "post"
 link: https://quachson.com/topic-12-subject-verb-agreement/
 slug: topic-12-subject-verb-agreement
 title: 'Topic 12: Subject - Verb Agreement'
