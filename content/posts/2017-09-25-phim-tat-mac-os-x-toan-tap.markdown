@@ -7,18 +7,13 @@ link: https://quachson.com/phim-tat-mac-os-x-toan-tap/
 slug: phim-tat-mac-os-x-toan-tap
 title: Phím tắt Mac OS X toàn tập
 wordpress_id: 1385
-categories:
-- macOS
+category: "macOS"
 tags:
 - macOS
+description: "Tập hợp những phím tắt của macOS, được dịch lại từ trang chủ của apple."
 ---
-
 Bạn có thể sử dụng phím tắt để làm việc trên máy Mac bằng cách sử dụng các tổ hợp phím trên bàn phím.
-
-
 # **Sử dụng phím tắt**
-
-
 Để sử dụng phím tắt, chúng ta cần ấn Phím Chức Năng cùng lúc với phím ký tự. Ví dụ: Ấn Command key (⌘) và sau đó ấn “c” để copy bất kể gì vào Clipboard. Vậy ta có Command-C là phím tắt. Bạn cũng có thể thấy các phím tắt bằng cách nhìn vào Menu của chương trình.![](https://quachson.com/wp-content/uploads/edit_menu-300x180.png)
 
 Phím chức năng là một phần của các tổ hợp phím tắt. Phím chức năng làm thay đổi tổ hợp khi sử dụng chuột, trackpad bằng nhiều cách khác nhau trên OS X. Phím chức năng bao gồm các phím: Command, Shift, Option, Control, Caps Lock và phím fn. Các phím trên được hiển thị bằng các kí hiệu khi bạn nhìn thấy trên Menu hoặc những phần khác của OS X:
@@ -28,7 +23,6 @@ Phím chức năng là một phần của các tổ hợp phím tắt. Phím ch�
 Khi phím fn được sử dụng cùng với dãy phím của hàng trên cùng trên bàn phím, nó sẽ ra các chức năng khác. Ví dụ: nếu phím tắt Control-F2, bạn có thể ấn fn-Control-Brightness trên bàn phím. Nếu bạn nhìn sát vào phím Brightness ở trên bàn phím sẽ thấy biểu tượng F2 và phím đó hoạt động như chức năng hiển thị (F2 hoặc funtion2) khi bạn sẽ fn trên bàn phím.
 
 Nếu bạn sử dụng bàn phím không phải của Apple và có phím Windows, phím Alt sẽ hoạt động tương tự như Option, và phím Windows hoạt động như phím Command. Bạn có thể thay đổi những phím trên trong Keyboard pane of System Prefrences. (Bấm vào biểu tượng Apple > System Prefrences > Keyboard > Modifier Keys, sau đó chọn các phím muốn thay đổi và lựa chọn, nếu muốn quay lại mặc địch các bạn bấm Restore Defaults.)
-
 
 # **Cut, Copy và Paste**
 
