@@ -33,10 +33,7 @@ Pre-completion OPT có thể được dùng trong lúc còn đi học trước k
 
 Mỗi trường đại học đều có văn phòng chịu trách nhiệm về tư vấn và làm giấy tờ cho sinh viên. Ngay khi đặt chân đến trường, điều cần nhất là đến **gặp các counselors ở đây để làm quen, dự orientation, và trang bị cho bản thân những kiến thức cần thiết** trước khi học kì đầu tiên bắt đầu. Bạn sẽ không phải hối tiếc về điều này. Đã có không thiếu trường hợp sinh viên không nắm rõ luật lệ và **đi làm không xin phép hay trái phép và bị buộc phải về nước**. Bạn có thể tìm hiểu thêm về OPT trên website của USCIS tại đây.
 
-
 ### **5. H1B**:
-
-
 là dạng visa **có tài trợ từ công ty (sponsor)** dành cho lao động trình độ cao (highly skilled labor) thường có thời hạn 3 năm, được gia hạn thêm 1 lần nên tổng cộng là 6 năm. Từ H1B có thể xin thẻ xanh 2 năm. Nói dễ ăn vậy thì ai cũng có thể vào Mỹ hết rồi.
 
 Mỗi năm chính phủ Mỹ có quota cho việc cấp visa H-1B và OTP, khoảng 85,000 cho H-1B. Trong đó 20,000 chổ dành riêng cho người có bằng cao học trở lên (Thạc sỹ, Tiến sỹ, Bác sỹ, dược sỹ, …) và 6,800 chổ dành cho công dân Singapore và Chile dưới dạng H-1B. Những chổ còn lại dành cho tất cả mọi người nhưng mình thấy 80% là người Ấn độ. Số lượng visa thì có hạn, những mỗi năm số người muốn xin vào visa ngày càng cao.
@@ -45,8 +42,6 @@ Nếu làm việc cho các trường đại học thì việc xin H-1B rất đ�
 
 
 ### **6. Nếu không xin được visa H-1B thì sao ?**
-
-
 Hết hạn OPT thì mỗi người có 60 ngày grace period để thu dọn đồ đạc và theo đuổi những lựa chọn như là: 	
   * Đi làm việc ở nước khác: 	
   * Đi học tiếp: Mỗi cấp chỉ dùng được OPT 1 lần (BS, Master, PhD), Nếu bạn đang làm OTP Master thì bạn xin trường update lên OPT PhD. 	

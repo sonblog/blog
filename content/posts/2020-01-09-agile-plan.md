@@ -23,13 +23,7 @@ Nói đến Agile thì ai cũng đã nghe qua, cũng đã biết nhưng rất í
 
 Sau đây là ví dụ planing sprint cho 2 tuần có gì
 
-| T2                                  | T3               | T4              | T5             | T6             |
-|-------------------------------------|------------------|-----------------|----------------|----------------|
-| Retrospective, Knowledge sharing    | Planning 2 (how) | Daily, Code     | Daily, Code    | Daily, Code    |
-
-| T2                                  | T3               | T4              | T5             | T6             |
-|-------------------------------------|------------------|-----------------|----------------|----------------|
-| Daily, Code                         | Daily, Code      | Planning 1 (What)| Daily, Code   | Daily, Code    | 
+![Agile planning](/media/agile_planing_png. "Agile planning")
  	
   * Knowledge sharing: chia sẽ về business, về tính năng, về kỹ thuật mà mình làm trong sprint, về project cho người nào chưa biết.
 
