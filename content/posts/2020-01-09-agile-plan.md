@@ -23,7 +23,7 @@ Nói đến Agile thì ai cũng đã nghe qua, cũng đã biết nhưng rất í
 
 Sau đây là ví dụ planing sprint cho 2 tuần có gì
 
-![Agile planning](/media/agile_planing_png. "Agile planning")
+![Agile planning](/media/agile_planning.png "Agile planning")
  	
   * Knowledge sharing: chia sẽ về business, về tính năng, về kỹ thuật mà mình làm trong sprint, về project cho người nào chưa biết.
 
