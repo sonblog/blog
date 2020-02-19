@@ -18,7 +18,7 @@ Bạn có thể sử dụng phím tắt để làm việc trên máy Mac bằng 
 
 Phím chức năng là một phần của các tổ hợp phím tắt. Phím chức năng làm thay đổi tổ hợp khi sử dụng chuột, trackpad bằng nhiều cách khác nhau trên OS X. Phím chức năng bao gồm các phím: Command, Shift, Option, Control, Caps Lock và phím fn. Các phím trên được hiển thị bằng các kí hiệu khi bạn nhìn thấy trên Menu hoặc những phần khác của OS X:
 
-[table id=1 /]
+[![](/media/function_key.png)](Phím chức năng) 	
 
 Khi phím fn được sử dụng cùng với dãy phím của hàng trên cùng trên bàn phím, nó sẽ ra các chức năng khác. Ví dụ: nếu phím tắt Control-F2, bạn có thể ấn fn-Control-Brightness trên bàn phím. Nếu bạn nhìn sát vào phím Brightness ở trên bàn phím sẽ thấy biểu tượng F2 và phím đó hoạt động như chức năng hiển thị (F2 hoặc funtion2) khi bạn sẽ fn trên bàn phím.
 
@@ -26,103 +26,37 @@ Nếu bạn sử dụng bàn phím không phải của Apple và có phím Windo
 
 # **Cut, Copy và Paste**
 
-
 Bạn có thể sử dụng trong phần lớn các ứng dụng với lệnh cut, copy, paste. Có thể là ảnh, chữ, nhạc và nhiều thứ khác. Bạn có thể copy, paste files trong Finder để Copy sang chỗ khác.
-<table style="width: 723px;" id="tablepress-2" class="tablepress tablepress-id-2" >
 
-<tr class="row-1 odd" >
-TỔ HỢP PHÍM
-CHỨC NĂNG
-</tr>
-
-<tbody class="row-hover" >
-<tr class="row-2 even" >
-
-<td style="width: 172.75px;" class="column-1" >Command-C
-</td>
-
-<td style="width: 535.25px;" class="column-2" >Copy dữ liệu lựa chọn vào Clipboard
-</td>
-</tr>
-<tr class="row-3 odd" >
-
-<td style="width: 172.75px;" class="column-1" >Command-X
-</td>
-
-<td style="width: 535.25px;" class="column-2" >Xóa bỏ dữ liệu được copy và Clipboard
-</td>
-</tr>
-<tr class="row-4 even" >
-
-<td style="width: 172.75px;" class="column-1" >Command-V
-</td>
-
-<td style="width: 535.25px;" class="column-2" >Tạo bản sao với nội dung trong Clipboard vào trong tài liệu hoặc ứng dụng đang lựa chọn
-</td>
-</tr>
-</tbody>
-</table>
-
+| Tổ hợp phím | Chức năng                                                                               |
+|-------------|-----------------------------------------------------------------------------------------|
+| ⌘-C         | Copy dữ liệu lựa chọn vào Clipboard                                                     |
+| ⌘-X         | Xóa bỏ dữ liệu được copy và Clipboard                                                   |
+| ⌘-V         | Tạo bản sao với nội dung trong Clipboard vào trong tài liệu hoặc ứng dụng đang lựa chọn |
 
 # **Chụp ảnh màn hình**
 
 
-Sử dụng phím tắt này để chụp những gì bạn thấy trên màn hình. Hoặc bạn có thể sử dụng Grab để chụp màn hình, Grab nằm trong thư mục Applications > Utilities
-<table style="width: 717px;" id="tablepress-3" class="tablepress tablepress-id-3" >
+Sử dụng phím tắt này để chụp những gì bạn thấy trên màn hình. Hoặc bạn có thể sử dụng Grab để chụp màn hình, Grab nằm trong thư mục `Applications` > `Utilities`
 
-<tr class="row-1 odd" >
-TỔ HỢP PHÍM
-CHỨC NĂNG
-</tr>
-
-<tbody class="row-hover" >
-<tr class="row-2 even" >
-
-<td style="width: 196.78125px;" class="column-1" >Command-Shift-3
-</td>
-
-<td style="width: 508.21875px;" class="column-2" >Chụp lại toàn màn hình và lưu ra file
-</td>
-</tr>
-<tr class="row-3 odd" >
-
-<td style="width: 196.78125px;" class="column-1" >Command-Shift-Control-3
-</td>
-
-<td style="width: 508.21875px;" class="column-2" >Chụp toàn màn hình và lưu vào Clipboard
-</td>
-</tr>
-<tr class="row-4 even" >
-
-<td style="width: 196.78125px;" class="column-1" >Command-Shift-4
-</td>
-
-<td style="width: 508.21875px;" class="column-2" >Chụp lại một phần màn hình bạn lựa chọn và lưu ra file hoặc bấm Spacebar để chụp mỗi cửa sổ bạn chọn lựa.
-</td>
-</tr>
-<tr class="row-5 odd" >
-
-<td style="width: 196.78125px;" class="column-1" >Command-Shift-Control-4
-</td>
-
-<td style="width: 508.21875px;" class="column-2" >Chụp một phần màn hình bạn lựa chọn và lưu vào Clipboard, hoặc bấm Spacebar để chụp cửa sổ bạn chọn lựa.
-</td>
-</tr>
-</tbody>
-</table>
-
+| Tổ hợp phím | Chức năng  |
+|-------------|----------|
+| ⌘-⇧-3       | Chụp lại toàn màn hình và lưu ra file                                                                     |
+| ⌘-⇧-Shift-3 | Chụp toàn màn hình và lưu vào Clipboard                                                                   |
+| ⌘-⇧-4       | Chụp lại một phần màn hình bạn lựa chọn và lưu ra file hoặc bấm Spacebar để chụp mỗi cửa sổ bạn chọn lựa. |
+| ⌘-⇧-Shift-4 | Chụp một phần màn hình bạn lựa chọn và lưu vào Clipboard, hoặc bấm Spacebar để chụp cửa sổ bạn chọn lựa.  |
 
 # **Phím tắt khi khởi động**
 
-
 Sử dụng các tổ hợp phím này để thay đổi tính năng khi bạn khởi động máy, Bấm và giữ phím hoặc tổ hợp phím ngay lập tức sau khi bật máy Mac của bạn cho đến khi chức năng xuất hiện, ví dụ: bấm và giữ phím Option trong khi khởi động cho đến khi Startup Manager xuất hiện.
 
-Lưu ý: Nếu bạn đang sử dụng một bàn phím được sản xuất bởi một công ty khác không phải của Apple, phím Alt thường có chức năng như phím Option. Nếu ban làm tác vụ tương tự nhưng không hoạt động hãy thử sử dụng một bàn phím Apple thay thế.
+**Lưu ý:** Nếu bạn đang sử dụng một bàn phím được sản xuất bởi một công ty khác không phải của Apple, phím Alt thường có chức năng như phím Option. Nếu ban làm tác vụ tương tự nhưng không hoạt động hãy thử sử dụng một bàn phím Apple thay thế.
+
 <table style="width: 723px;" id="tablepress-4" class="tablepress tablepress-id-4" >
 
 <tr class="row-1 odd" >
-TỔ HỢP PHÍM
-CHỨC NĂNG
+<td><strong>TỔ HỢP PHÍM</strong></td>
+<td><b>CHỨC NĂNG</b></td>
 </tr>
 
 <tbody class="row-hover" >
@@ -131,7 +65,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >Option hoặc Alt
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Hiển thị tất cả phân vùng khởi động ([Startup Manager](https://buithucdong.com/))
+<td style="width: 531.9375px;" class="column-2" >Hiển thị tất cả phân vùng khởi động ([Startup Manager]
 </td>
 </tr>
 <tr class="row-3 odd" >
@@ -139,7 +73,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >Shift
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Khởi động với [Safe Mode](https://buithucdong.com/)
+<td style="width: 531.9375px;" class="column-2" >Khởi động với [Safe Mode]
 </td>
 </tr>
 <tr class="row-4 even" >
@@ -155,7 +89,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >T
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Khởi động trong[ Target disk mode](https://buithucdong.com/) (chế độ này cho phép Mac khởi động qua cổng FireWire hay Thunderbolt. hoặc kết nối với 1 máy Mac khác như ổ đĩa ngoài.)
+<td style="width: 531.9375px;" class="column-2" >Khởi động trong[ Target disk mode] (chế độ này cho phép Mac khởi động qua cổng FireWire hay Thunderbolt. hoặc kết nối với 1 máy Mac khác như ổ đĩa ngoài.)
 </td>
 </tr>
 <tr class="row-6 even" >
@@ -163,7 +97,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >N
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Khởi động từ [NetBoot server](https://buithucdong.com/) - bạn có thể cài hoặc khởi động OS X thông qua mạng sử dụng dịch vụ OS X Server.
+<td style="width: 531.9375px;" class="column-2" >Khởi động từ [NetBoot server] - bạn có thể cài hoặc khởi động OS X thông qua mạng sử dụng dịch vụ OS X Server.
 </td>
 </tr>
 <tr class="row-7 odd" >
@@ -179,7 +113,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >D
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Khởi chạy chế độ kiểm tra phần cứng ([Apple Hardware Test](https://buithucdong.com/))
+<td style="width: 531.9375px;" class="column-2" >Khởi chạy chế độ kiểm tra phần cứng ([Apple Hardware Test]
 </td>
 </tr>
 <tr class="row-9 odd" >
@@ -187,7 +121,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >Command-R
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Sử dụng [OS X Recovery](https://buithucdong.com/) (từ OS X Lion về sau)
+<td style="width: 531.9375px;" class="column-2" >Sử dụng [OS X Recovery] (từ OS X Lion về sau)
 </td>
 </tr>
 <tr class="row-10 even" >
@@ -195,7 +129,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >Command-Option-R
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Sử dụng [Internet Recovery](https://buithucdong.com/) trên những máy có hỗ trợ
+<td style="width: 531.9375px;" class="column-2" >Sử dụng [Internet Recovery] trên những máy có hỗ trợ
 </td>
 </tr>
 <tr class="row-11 odd" >
@@ -203,7 +137,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >Command-V
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Khởi động vào [Verbose Mode](https://buithucdong.com/)
+<td style="width: 531.9375px;" class="column-2" >Khởi động vào [Verbose Mode]
 </td>
 </tr>
 <tr class="row-12 even" >
@@ -211,7 +145,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >Command-S
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >Khởi động vào [Single User Mode](https://buithucdong.com/)
+<td style="width: 531.9375px;" class="column-2" >Khởi động vào [Single User Mode]
 </td>
 </tr>
 <tr class="row-13 odd" >
@@ -219,7 +153,7 @@ CHỨC NĂNG
 <td style="width: 176.0625px;" class="column-1" >Command-Option-P-R
 </td>
 
-<td style="width: 531.9375px;" class="column-2" >[RESET](https://buithucdong.com/) NVRAM (nhấn và giữ tổ hợp phím cho đến khi Mac phát ra tiếng khởi động 2 lần. Có tác dụng giải phóng PRAM đưa về cấu hình mặc định của display setting, time and date, time zone, speaker volume, DVD setting, Region.)
+<td style="width: 531.9375px;" class="column-2" >[RESET] NVRAM (nhấn và giữ tổ hợp phím cho đến khi Mac phát ra tiếng khởi động 2 lần. Có tác dụng giải phóng PRAM đưa về cấu hình mặc định của display setting, time and date, time zone, speaker volume, DVD setting, Region.)
 </td>
 </tr>
 <tr class="row-14 even" >
@@ -241,8 +175,8 @@ Sử dụng các tổ hợp phím sau khi Mac của bạn bắt đầu Sleep, Sh
 <table style="width: 721px;" id="tablepress-5" class="tablepress tablepress-id-5" >
 
 <tr class="row-1 odd" >
-TỔ HỢP PHÍM
-CHỨC NĂNG
+<td><b>TỔ HỢP PHÍM</b></td>
+<td><b>CHỨC NĂNG</b></td>
 </tr>
 
 <tbody class="row-hover" >
@@ -337,8 +271,8 @@ Các phím tắt sau hoạt động trong phần lớn các ứng dụng.
 <table style="width: 723px;" id="tablepress-7" class="tablepress tablepress-id-7" >
 
 <tr class="row-1 odd" >
-TỔ HỢP PHÍM
-CHỨC NĂNG
+<td><b>TỔ HỢP PHÍM</b></td>
+<td><b>CHỨC NĂNG</b></td>
 </tr>
 
 <tbody class="row-hover" >
@@ -721,8 +655,8 @@ Sử dụng các tổ hợp phím khi chỉnh sửa văn bản trong một trư�
 <table style="width: 705px;" id="tablepress-8" class="tablepress tablepress-id-8" >
 
 <tr class="row-1 odd" >
-TỔ HỢP PHÍM
-CHỨC NĂNG
+<td><b>TỔ HỢP PHÍM</b></td>
+<td><b>CHỨC NĂNG</b></td>
 </tr>
 
 <tbody class="row-hover" >
@@ -1120,8 +1054,8 @@ CHỨC NĂNG
 <table id="tablepress-9" class="tablepress tablepress-id-9" >
 
 <tr class="row-1 odd" >
-TỔ HỢP PHÍM
-CHỨC NĂNG
+<td><b>TỔ HỢP PHÍM</b></td>
+<td><b>CHỨC NĂNG</b></td>
 </tr>
 
 <tbody class="row-hover" >
@@ -1615,6 +1549,3 @@ CHỨC NĂNG
 </tr>
 </tbody>
 </table>
-
-
-nguồn: buithucdong.com
