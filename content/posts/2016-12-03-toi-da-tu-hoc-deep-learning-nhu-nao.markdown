@@ -7,11 +7,11 @@ link: https://quachson.com/toi-da-tu-hoc-deep-learning-nhu-nao/
 slug: toi-da-tu-hoc-deep-learning-nhu-nao
 title: Tôi đã tự học Deep Learning như thế nào
 wordpress_id: 1276
-categories:
-- Machine Learning
+category: "ML"
 tags:
 - Deep Learning
 - Machine Learning
+description: "Nhân dịp TensorFlow vừa kỷ niệm 1 năm open source, mình viết bài này để kể lại 1 năm qua mình đã tự học Deep Learning như thế nào, vừa để tự tổng hợp kiến thức, vừa để cho các bạn nào quan tâm đến Machine Learning nói chung cũng như là Deep Learning nói riêng tham khảo."
 ---
 
 Nhân dịp TensorFlow vừa kỷ niệm 1 năm open source, mình viết bài này để kể lại 1 năm qua mình đã tự học Deep Learning như thế nào, vừa để tự tổng hợp kiến thức, vừa để cho các bạn nào quan tâm đến Machine Learning nói chung cũng như là Deep Learning nói riêng tham khảo.
