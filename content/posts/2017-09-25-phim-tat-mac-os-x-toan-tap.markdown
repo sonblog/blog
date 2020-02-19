@@ -18,7 +18,7 @@ Bạn có thể sử dụng phím tắt để làm việc trên máy Mac bằng 
 
 Phím chức năng là một phần của các tổ hợp phím tắt. Phím chức năng làm thay đổi tổ hợp khi sử dụng chuột, trackpad bằng nhiều cách khác nhau trên OS X. Phím chức năng bao gồm các phím: Command, Shift, Option, Control, Caps Lock và phím fn. Các phím trên được hiển thị bằng các kí hiệu khi bạn nhìn thấy trên Menu hoặc những phần khác của OS X:
 
-[![](/media/function_key.png)](Phím chức năng) 	
+![](/media/function_key.png)](Phím chức năng) 	
 
 Khi phím fn được sử dụng cùng với dãy phím của hàng trên cùng trên bàn phím, nó sẽ ra các chức năng khác. Ví dụ: nếu phím tắt Control-F2, bạn có thể ấn fn-Control-Brightness trên bàn phím. Nếu bạn nhìn sát vào phím Brightness ở trên bàn phím sẽ thấy biểu tượng F2 và phím đó hoạt động như chức năng hiển thị (F2 hoặc funtion2) khi bạn sẽ fn trên bàn phím.
 
