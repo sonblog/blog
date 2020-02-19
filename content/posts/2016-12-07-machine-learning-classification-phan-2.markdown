@@ -7,8 +7,9 @@ link: https://quachson.com/machine-learning-classification-phan-2/
 slug: machine-learning-classification-phan-2
 title: Machine Learning – Classification – phần 2
 wordpress_id: 1294
-categories:
-- Machine Learning
+category: "ML"
+description: "Trở lại câu chuyện về hoa diên vĩ (Iris flower): Chúng ta có một danh sách các bông hoa diên vĩ được mô tả bằng độ dài và độ dày của đài hoa và cánh hoa (attributes). Chúng ta cũng đã biết chủng loại của tất cả các bông hoa trừ một cái duy nhất (chúng ta sẽ gọi nó là “bông diên vĩ bí ẩn”) và mục tiêu cuối cùng là tìm ra chủng loại của bông diên vĩ bí ẩn này. Với bài toán này, chúng ta giả sử rằng những thuộc tính trên là đặc trưng của chủng loại."
+
 ---
 
 Trong bài viết trước ([link](https://quachson.com/machine-learning-classification-phan-1)), chúng ta đã cùng tìm hiểu về **Classification**. Chúng ta cũng đã đưa ra vài ví dụ về ứng dụng của nó và cũng đã làm quen với **the Iris dataset**. Nếu có thời gian, bạn nên đọc bài viết đó để có thể hiểu cặn kẽ những nội dung trong bài viết này.
@@ -37,15 +38,17 @@ Tuy nhiên, mặc dù khoảng cách Euclide giữa hai điểm trên bản đ�
 
 ![table2](https://quachson.com/wp-content/uploads/table2-300x208.png)
 
-Khoảng cách giữa hai bông diên vĩ đầu tiên là:(6.3−6.2)2+(2.3−3.4)2+(4.4−5.4)2+(1.3−2.3)2−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−√=1.79
+Khoảng cách giữa hai bông diên vĩ đầu tiên là:
+
+(6.3−6.2)^2+(2.3−3.4)2+(4.4−5.4)2+(1.3−2.3)2−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−−√=1.79
+
+
 ![\sqrt{(6.3-6.2)^{2}+(2.3-3.4)^{2}+(4.4-5.4^{2}+(1.3-2.3)^{2}}](http://chart.apis.google.com/chart?cht=tx&chl=%5Csqrt%7B(6.3-6.2)%5E%7B2%7D%2B(2.3-3.4)%5E%7B2%7D%2B(4.4-5.4%5E%7B2%7D%2B(1.3-2.3)%5E%7B2%7D%7D)  = ![\sqrt{15.18}](http://chart.apis.google.com/chart?cht=tx&chl=%5Csqrt%7B15.18%7D) = 3.90
-
-
 
 
 Khoảng cách giữa bông hoa đầu tiên và bông hoa thứ ba là:
 
-![\sqrt{ (6.3-5.2)^{2}+(2.3-3.4)^{2}+(4.4-1.4)^{2}+(1.3-0.2)^{2}} = 3.70](http://chart.apis.google.com/chart?cht=tx&chl=%5Csqrt%7B%20(6.3-5.2)%5E%7B2%7D%2B(2.3-3.4)%5E%7B2%7D%2B(4.4-1.4)%5E%7B2%7D%2B(1.3-0.2)%5E%7B2%7D%7D%20%3D%203.70)
+![](/media/chart.png )  
 
 Giá trị đầu tiên nhỏ hơn (3.7 < 3.9), điều này có nghĩa là bông diên vĩ đầu tiên giống bông hoa thứ hai hơn so với bông hoa thứ ba.
 
@@ -73,6 +76,4 @@ Bài viết đến đây là hết. Hi vọng bạn đã có một hiểu biết
 
 Hẹn gặp lại các bạn trong bài viết tới!
 
-Nguồn: [Achoum’s blog](http://blog.mathieu.guillame-bert.com/2015/07/20/machine-learning-for-dummies-part-2/), [vnoi.info](http://vnoi.info/wiki/translate/ml/Machine-Learning-Classification-phan-2)
-
-
+Nguồn: [vnoi.info](http://vnoi.info/wiki/translate/ml/Machine-Learning-Classification-phan-2)

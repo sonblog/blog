@@ -7,8 +7,8 @@ link: https://quachson.com/nhung-han-che-cua-classification/
 slug: nhung-han-che-cua-classification
 title: Những hạn chế của Classification
 wordpress_id: 1321
-categories:
-- Machine Learning
+category: "ML"
+description: "Classification là toán xác xuất nên để kỳ vọng tính chính xác 100% là rất khó vì nó phụ thuộc vào tập dataset. Classification chỉ có 2 giá trị: [0,1], [đúng, sai], về email thì [spam, not spam], [khẳng định, phủ định]"
 ---
 
 Classification là toán xác xuất nên để kỳ vọng tính chính xác 100% là rất khó vì nó phụ thuộc vào tập dataset. Classification chỉ có 2 giá trị: [0,1], [đúng, sai], về email thì [spam, not spam], [khẳng định, phủ định], thông thường thì có ngưỡng giữa tùy vào ta chọn như [0,1] ta chọn 0.5 cho đơn giản làm ví dụ, nếu < 0.5 ==> 0,  > 0.5 là 1. Kết quả trả về rơi nhiều vào giữa ngưỡng [0.4, 0.5, 0.6] có thể dẫn đến kết quả sai. Gọi là na ná giống nhau, nhưng về bản chất nhiều khi khác nhau xa lắm. Cho nên khi có kết quả gần đúng người ta sẽ dùng thuật toán khác filter thêm lần nữa để cho ra kết quả tốt hơn. Ta làm thử 1 ví dụ để xem tính chính xác của Classification như thế nào nhé.

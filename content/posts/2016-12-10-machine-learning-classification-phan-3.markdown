@@ -7,8 +7,8 @@ link: https://quachson.com/machine-learning-classification-phan-3/
 slug: machine-learning-classification-phan-3
 title: Machine Learning – Classification – phần 3
 wordpress_id: 1312
-categories:
-- Machine Learning
+category: "ML"
+description: "Trong hai bài viết trước ([phần 1]), chúng ta đã cùng tìm hiểu về Classification. Chúng ta cũng đã làm quen với một thuật toán rất nổi tiếng gọi là k-nearest neighbors. Nếu có thời gian, bạn nên đọc các bài viết đó để có thể hiểu cặn kẽ những nội dung trong bài viết này, bài viết cuối cùng trong chuỗi bài giới thiệu về"
 ---
 
 Trong hai bài viết trước ([phần 1](https://quachson.com/machine-learning-classification-phan-1)) và ([phần 2](https://quachson.com/machine-learning-classification-phan-2)), chúng ta đã cùng tìm hiểu về **Classification**. Chúng ta cũng đã làm quen với một thuật toán rất nổi tiếng gọi là **k-nearest neighbors**. Nếu có thời gian, bạn nên đọc các bài viết đó để có thể hiểu cặn kẽ những nội dung trong bài viết này, bài viết cuối cùng trong chuỗi bài giới thiệu về **Classification**.
