@@ -7,8 +7,7 @@ link: https://quachson.com/machine-learning-classification-phan-1/
 slug: machine-learning-classification-phan-1
 title: Machine Learning - Classification - phần 1
 wordpress_id: 1281
-categories:
-- Machine Learning
+category: "ML"
 tags:
 - Machine Learning
 ---
@@ -71,4 +70,3 @@ Trong thực tế, dĩ nhiên các kỹ thuật phân loại không chỉ đư�
 
 Trong bài viết tiếp theo, tác giả sẽ trình bày cách giải bài toán phân loại. Chính xác hơn, tác giả sẽ trình bày hai thuật toán phân loại được sử dụng rộng rãi mà bất cứ nhà nghiên cứu về Machine Learning nào cũng biết.
 
-Nguồn: [Achoum's blog](http://blog.mathieu.guillame-bert.com/2015/07/12/introduction-to-machine-learning/), [vnoi.info](http://vnoi.info/wiki/translate/ml/Machine-Learning-Classification-phan-1)

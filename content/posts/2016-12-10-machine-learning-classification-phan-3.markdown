@@ -63,4 +63,3 @@ Và đó là tất cả những gì bạn cần biết về _Random Forest_.
 
 Bài viết tới mình sẽ viết về những hạn chế của **Classification**, bài tới nữa sẽ giới thiệu vệ **Hồi Quy.**
 
-Nguồn: [Achoum’s blog](http://blog.mathieu.guillame-bert.com/2015/07/23/machine-learning-for-dummies-part-3/), [vnoi.info](http://vnoi.info/wiki/translate/ml/Machine-Learning-Classification-phan-3)
