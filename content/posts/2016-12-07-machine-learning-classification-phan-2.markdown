@@ -76,4 +76,4 @@ Bài viết đến đây là hết. Hi vọng bạn đã có một hiểu biết
 
 Hẹn gặp lại các bạn trong bài viết tới!
 
-Nguồn: [vnoi.info](http://vnoi.info/wiki/translate/ml/Machine-Learning-Classification-phan-2)
+Nguồn: [quachson.com](https://quachson.com/machine-learning-classification-phan-2/)
