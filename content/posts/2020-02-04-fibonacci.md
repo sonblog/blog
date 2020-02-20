@@ -1,6 +1,6 @@
 ---
 title: Fibonacci
-date: 2020-08-19 22:40:32+00:00
+date: 2020-02-04 22:40:32+00:00
 template: "post"
 draft: false
 slug: "fibonacci"
