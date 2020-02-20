@@ -7,10 +7,10 @@ link: https://quachson.com/tuy-duyen/
 slug: tuy-duyen
 title: Tùy Duyên
 wordpress_id: 906
-categories:
-- Life
+category: "Life"
 tags:
 - Life
+description: "Nên nhớ rằng duyên có hợp có tan, có đến có đi. Ta đừng tin chắc rằng những gì mình có được hôm nay sẽ tồn tại mãi mãi. Tuy ta không thể hoàn toàn chủ động tạo ra hết mọi nhân duyên cho mình, nhưng ta có thể tạo ra sự liên kết để nhân duyên duy trì hay tan rã"
 ---
 
 Nên nhớ rằng duyên có hợp có tan, có đến có đi. Ta đừng tin chắc rằng những gì mình có được hôm nay sẽ tồn tại mãi mãi. Tuy ta không thể hoàn toàn chủ động tạo ra hết mọi nhân duyên cho mình, nhưng ta có thể tạo ra sự liên kết để nhân duyên duy trì hay tan rã. Tâm ta cũng là một cơ chế rất kỳ bí. Mỗi ý niệm tốt sẽ phát sinh ra vô số năng lượng tốt và mỗi ý niệm xấu sẽ phát sinh vô số năng lượng xấu. Chúng sẽ liên kết trực tiếp với nhứng năng lượng tốt hay xấu khác đang bàng bạc khắp nơi trong vũ trụ, và đến khi gộp đủ nhân duyên thì chúng sẽ tạo nên những hiệu ứng lớn đến không ngờ. Vì thế , tâm ta chính là nguồn gốc tạo ra hầu hết nhân duyên thích ứng cho ta. Nhưng nếu ko đủ sức phát huy được ưu thế của tâm để bồi đắp thêm cho nhân duyên mình đang có, thì ta phải đành chấp nhận để nhân duyên ra đi. Thái độ này chính là tùy duyên. Ngoài ra không mong cầu bất cứ nhân duyên nào khác cũng là thái độ tùy duyên.
