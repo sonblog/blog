@@ -7,8 +7,7 @@ link: https://quachson.com/state-pattern/
 slug: state-pattern
 title: State Pattern
 wordpress_id: 1263
-categories:
-- Design Pattern
+category: "Design Pattern"
 tags:
 - Behavioral Patterns
 - Design Pattern

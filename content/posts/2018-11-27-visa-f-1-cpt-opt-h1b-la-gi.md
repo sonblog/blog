@@ -17,6 +17,8 @@ Chủ yếu là có keywords để google tìm hiểu thêm.
 ### **1. F-1**:
 là visa dành cho học sinh, sinh viên du học ở trường trung học tư và tất cả trường đại học ở Mỹ. Để được cấp loại visa này, học sinh, sinh viên cần được cấp form I-20 là thư mời học khóa học từ trường.
 
+Đây là mẫu form i-20 mà bất cứ du học sinh nào đều mơ ước [download i-20](/media/I-20_Active.pdf)
+
 ### **2. F-2 / M2**: 
 là visa dành cho vợ / chồng / con của du học sinh có F1 hoặc M1.
 
