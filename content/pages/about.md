@@ -1,8 +1,6 @@
 ---
 template: page
 title: Tôi là Sơn
-slug: me
-draft: true
 ---
 Founder @ Quachson
 
