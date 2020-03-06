@@ -243,4 +243,4 @@ Hi vọng qua bài này sẽ giúp các bạn có 1 kiến thức mới về vi�
 
 Tham khảo: 
 * https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c
-* https://nghethuatcoding.com/2019/05/19/instagram-da-sinh-ra-id-trong-database-cua-ho-nhu-the-nao/
+
