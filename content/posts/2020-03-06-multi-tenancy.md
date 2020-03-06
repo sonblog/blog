@@ -20,21 +20,34 @@ Hệ thống chấm công, trả lương hay khai báo thuế cho tổng công t
 
 ##**Thiết kế database như thế nào ?**
 ###Cách 1:
-Cho tất cả data vào chung 1 table, thêm cột company_id làm khoá ngoại để biết users, data thuộc công ty nào.
+Dùng chung database, chia sẻ tables, thêm cột company_id làm khoá ngoại để biết users, data thuộc công ty nào.
 
 **Ưu Điểm:** Dễ thực hiện
 
 **Khuyết Điêm:**
-  * Chung 1 table, dữ liệu sẽ nhanh chóng phìng ra to
-  * Dễ sai xót nếu query nhầm company_id hay sai  
+  * Chung 1 table, dữ liệu sẽ nhanh chóng phìng ra to sẽ phát sinh rất nhiều vấn đề 
+  * Dễ sai xót nếu query nhầm company_id hay sai 
+  * Vấn đề backup, restore dữ liệu cho từng công ty gần như là không thế, chỉ có thể backup cho tất cả bằng tool. Còn muốn backup, restore cho từng công ty thì phải viết câu lệnh riêng, phức tạp.
+  * Khó khăn khi scale hệ thống.
+  * Không độc lập database sẽ khó khăn trong việc cấp quyền truy cập SQL. 
+
 
 ###Cách 2:
-Dùng schema, mỗi 1 công ty là 1 schema (chứa nhiều tables, trong postgres có hỗ trợ)
+Dùng chung database, chia sẻ schema, mỗi 1 công ty là 1 schema, cẩu trúc tables cho mỗi công ty đều giống nhau, mỗi khi tạo công ty mới sẽ tạo thêm schema và table mới.
 
+Schema - là khái niệm được SQL server version 2005 thêm vào, database > schema > table > column. Database hổ trợ schema rất nhiều như: SQL Server, Postgres, Redshift (AWS), Snowflake, SAP/Sybase, Vertica, Azure, Oracle (schema = user)
+
+**Ưu Điểm:** 
+* Dễ sai xót nếu query nhầm company_id hay sai
+* Dễ phân quyền trên schema hơn 
+
+**Khuyết Điêm:**
+  * Chung 1 database, dữ liệu sẽ nhanh chóng phìng ra to sẽ phát sinh rất nhiều vấn đề   
+  * Vấn đề backup, restore dữ liệu cho từng công ty gần như là không thế, chỉ có thể backup cho tất cả bằng tool. Còn muốn backup, restore cho từng công ty thì phải viết câu lệnh riêng, phức tạp.
+  * Khó khăn khi scale hệ thống.
+  * Số lượng schema trong 1 database là có giới hạn. 
+  * Đồng bộ những thay đổi cấu trúc table trong schema là vấn đề cần được quan tâm.
+    
 ###Cách 3:
-Mỗi công ty là 1 database độc lập 
-
-
-Tham khảo: 
-* 
+Mỗi tenant là một database
 
