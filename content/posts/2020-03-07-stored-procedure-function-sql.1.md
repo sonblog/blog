@@ -1,6 +1,6 @@
 ---
 title: Stored procedure and function in SQL
-date: 2020-03-08 20:30:00+00:00
+date: 2020-03-07 12:30:00+00:00
 template: "post"
 draft: false
 slug: "stored-procedure-function-sql"
