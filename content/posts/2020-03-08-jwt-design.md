@@ -13,7 +13,8 @@ description: "Khi làm việc với JWT gặp phải rất nhiều vấn đề n
 Khi làm việc về JWT thì gặp một số câu hỏi như sau:
 1. Thời gian hết hạn của JWT là ngắn hay là dài, thấy login vào facebook 1 lần và dùng mãi mãi luôn, ít khi nào thấy hết hạn, nếu để ngắn hạn thì phải dùng refresh token và những ưu điểm gì ?
 2. Có nên lưu token vào database hay không, nếu lưu thì mỗi lần kiểm tra phải truy xuất vào database thời gian sẽ chậm. JWT dã hỗ trợ kiểm tra token ?
-3. 
+3. Có nhiều API Restfuls cần validate token có cùng secret key hay là SSO thì thiết kế hệ thống như thế nào ?
+4. 
 
 ##**Giải quyết**
 #### Câu 1 #### 
