@@ -18,6 +18,15 @@ Hai công ty độc quyền về T-SQL đó là Microsoft và Sybase cho nên Da
 T-SQL: SQL Server, Sybase
 PL/SQL: Oracle, Postgres
 
+**Ưu Điểm:**
+- Giảm lượng truy xuất của ứng dụng lên database
+- Tăng tốc hiệu xuất ứng dụng
+- Code nằm ở database, nên nhiều ứng dụng có thể sử dụng chung
+
+**Khuyết Điểm:**
+- Ít developers biết viết ngôn ngữ này
+- Khó để quản lý versions và debug
+- Không thể portable sang những database khác như MySQL hay Microsoft SQL Server (T-SQL) vì nó dùng ngôn ngữ khác.
 
 
 ##**Function là gì ?**
