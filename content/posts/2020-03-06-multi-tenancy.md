@@ -51,3 +51,10 @@ Schema - là khái niệm được SQL server version 2005 thêm vào, database 
 ###Cách 3:
 Mỗi tenant là một database
 
+##**Cách Thực Hiện?**
+Cần phải chuẩn bị
+  * Một tenant kết nối với nhiều schema 
+  * Một tenant kết nối với nhiều database
+  * Migrate (thay đổi trên nhiều schema, nhiều database): `Flyway`
+
+
