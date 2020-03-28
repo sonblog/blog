@@ -13,7 +13,7 @@ description: "Khi làm việc với JWT gặp phải rất nhiều vấn đề n
 Khi làm việc về JWT thì gặp một số câu hỏi như sau:
 1. Thời gian hết hạn của JWT là ngắn hay là dài, thấy login vào facebook 1 lần và dùng mãi mãi luôn, ít khi nào thấy hết hạn, nếu để ngắn hạn thì phải dùng refresh token và những ưu điểm gì ?
 2. Có nên lưu token vào database hay không, nếu lưu thì mỗi lần kiểm tra phải truy xuất vào database thời gian sẽ chậm. JWT dã hỗ trợ kiểm tra token ?
-3. 
+3. Để phân quyền truy xuất giữa các APIs hay clients thì làm thế nào ?
 
 ##**Giải quyết**
 #### Câu 1 #### 
@@ -31,5 +31,20 @@ Không nên lưu token ở `local storage` hay `session storage`, chỉ nên lư
 Theo ý kiến cá nhân mình thì không nên lưu JWT xuống database, làm như vậy sẽ mất nhiều lợi ích của JWT.
 
 #### Câu 3 #### 
+Để phân quyền truy xuất giữa các APIs hay clients thì làm thế nào ?
+
+Dùng Microservice API Gateway, hiện tại có một số server gateway open sources ta có thể dùng như là: NGINX, KONG, TYK, KrakenD,...
+
+**Ưu điểm:** che giấu cấu trúc bên trong của ứng dụng.
+
+**Nhược điểm:** Sẽ bị nút thắt cổ chai khi hệ thống phát triển.
 
 
+
+
+
+
+Tham Khảo
+- https://konghq.com/kong/
+- https://tyk.io
+- https://www.krakend.io
