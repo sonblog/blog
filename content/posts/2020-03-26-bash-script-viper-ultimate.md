@@ -50,9 +50,14 @@ jps -v
 ```
 Muốn kill 1 threads thì làm sao 
 ```sh
-kill 12123 -9
+kill -9 12123
 ```
 
+#### Câu 3 #### 
+Muốn xem những ports nào đang chạy 
+```sh
+lsof -nP -iTCP:$PORT | grep LISTEN
+```
 
 
 
