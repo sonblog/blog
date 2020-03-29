@@ -40,7 +40,12 @@ Muốn dùng `git pull` cho tất cả thư mục thì viết script như thế 
 **Thực hiện:**
 Đặt tên file là pull_all.sh
 ```bash
-ls -d */ | xargs -P10 -I{} git -C {} pull
+for i in */; do
+    echo
+    date    
+    echo "----git pull $i"    		
+	git -C $i pull	
+done
 ```
 
 #### Câu 2 #### 
@@ -59,9 +64,16 @@ Muốn xem những ports nào đang chạy
 lsof -nP -iTCP:$PORT | grep LISTEN
 ```
 
+**Create a Symbolic Link**
+```sh
+ln -s /path/to/file /path/to/link
+```
 
-
-
+**Remove Link**
+```sh
+ls -l 
+unlink link
+```
 
 
 
