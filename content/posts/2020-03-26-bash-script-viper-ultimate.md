@@ -87,4 +87,4 @@ Tham khảo:
 
 Note **28-03-2020**: 
 - Mới tậu 1 con chuột không dây Razer Viper Ultimate. Ngon, dùng bao phê.
-- Mới thay pin, màn hình, bàn phím cho con Mac cùi. Hy vọng còn chạy được thêm 3 năm nữa.
+- Mới thay pin, màn hình, bàn phím cho con Mac.
