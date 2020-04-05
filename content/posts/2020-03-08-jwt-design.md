@@ -39,8 +39,21 @@ Dùng Microservice API Gateway, hiện tại có một số server gateway open 
 
 **Nhược điểm:** Sẽ bị nút thắt cổ chai khi hệ thống phát triển.
 
+---
 
+Architechure: browser --> server (backend, session, database) --> APIs --> database. 
 
+What about everything else ?
+- Works on SPAs and Mobile
+- Session ID is the user identifier
+- Generally hard to steal or forge
+- Uses simple HPPT cookies
+
+**The Pain**
+- Stateful
+- Potentilly requires session replication
+- Session pinning
+- Harder to scale since every instance runs everything
 
 
 
