@@ -41,7 +41,7 @@ Dùng Microservice API Gateway, hiện tại có một số server gateway open 
 
 ---
 
-Architechure: browser --> server (backend, session, database) --> APIs --> database. 
+Architecture: browser --> server (backend, session, database) --> APIs --> database. 
 
 What about everything else ?
 - Works on SPAs and Mobile

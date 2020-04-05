@@ -24,11 +24,11 @@ echo "Hello $NAME!"
 ```
 Và có quyền thực thi 
 ```sh
-sudo chmod u+x ./hello.sh
+$ sudo chmod u+x ./hello.sh
 ```
 Để thực thi `hello.sh`
 ```sh
-./hello.sh
+$ ./hello.sh
 ```
 #### Câu 1 #### 
 Muốn dùng `git pull` cho tất cả thư mục thì viết script như thế nào.
@@ -51,32 +51,34 @@ done
 #### Câu 2 #### 
 Muốn xem những threads java đang chạy là những threads nào để mình kill nó
 ```sh
-jps -v
+$ jps -v
 ```
 Muốn kill 1 threads thì làm sao 
 ```sh
-kill -9 12123
+$ kill -9 12123
 ```
 
 #### Câu 3 #### 
 Muốn xem những ports nào đang chạy 
 ```sh
-lsof -nP -iTCP:$PORT | grep LISTEN
+$ lsof -nP -iTCP:$PORT | grep LISTEN
 ```
 
 **Create a Symbolic Link**
 ```sh
-ln -s /path/to/file /path/to/link
+$ ln -s /path/to/file /path/to/link
 ```
 
 **Remove Link**
 ```sh
-ls -l 
-unlink link
+$ ls -l 
+$ unlink link
 ```
 
-
-
+**Check running postgres**
+```sh
+$ ps auxwww | grep postgres
+```
 
 
 
