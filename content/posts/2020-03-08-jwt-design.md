@@ -55,9 +55,23 @@ What about everything else ?
 - Session pinning
 - Harder to scale since every instance runs everything
 
+---
+
+Some patterns you should know
+  - Orchestration and Aggregation
+  - Event Management   
+  - Availability
+    + Bulkhead
+    + Circuit Breaker
+    + Function warmer
+    + Read-heavy report engine
+  - Communication
+  - Authorization
 
 
 Tham Khảo
 - https://konghq.com/kong/
 - https://tyk.io
 - https://www.krakend.io
+- https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
+
