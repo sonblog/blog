@@ -124,12 +124,6 @@ nhớ là M, dùng MB hay Mb sẽ hem chạy đâu.
 
 ----
 
-Tháng 11, tháng của hoa hoa Cúc
-
-[![](https://quachson.com/wp-content/uploads/IMG_0722.jpg)](https://quachson.com/ssl-lets-encrypt-with-beanstalk-elasticsearch-amazon-nodejs/img_0722/)
-
-Credit hình: trên hình
-
 Thảm khảo:
 https://gist.github.com/dborin/dd501b28967d3784fa646534dbea6ffa
 https://gist.github.com/tony-gutierrez/198988c34e020af0192bab543d35a62a
