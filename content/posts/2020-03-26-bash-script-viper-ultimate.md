@@ -3,7 +3,7 @@ title: Bash Script - Mouse Viper Ultimate
 date: 2020-03-26 10:30:00+00:00
 template: "post"
 draft: false
-slug: "bash"
+slug: "bash-mouse"
 category: "Bash"
 tags:
   - "Bash"

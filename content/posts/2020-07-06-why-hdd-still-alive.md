@@ -3,7 +3,7 @@ title: Why HDDs won't be replaced by SSDs
 date: 2020-07-06 10:30:00+00:00
 template: "post"
 draft: false
-slug: "computer"
+slug: "hdd-ssd-m2"
 category: "Computer"
 tags:
   - "Computer"
