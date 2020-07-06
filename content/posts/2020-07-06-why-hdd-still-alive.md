@@ -29,12 +29,13 @@ SSD WD M2
 - M2 NVMe Blue 500Gb: 2tr1
 - M2 Black 500Gb: 3tr5
 - M2 Black 1Tb: 8tr
+Nhược điểm của M2 là có tuổi thọ, thời hạn sử dụng, có thể sử dụng khoảng 5 năm.
 
 Video test HDD vs SSD: https://www.youtube.com/watch?v=V3AMz-xZ2VM
 
 HDD chưa thể thay thế hoàn toàn được vì SSD giá vẫn còn cao và nhu cầu sử dụng HDD vẫn còn. Và tốc độ load giữ SSD và M2 cũng không chêch lệch quá nhiều.
 - Nếu bạn là người không quan tâm nhiều về tiền bạc thì có thể chọn 2 thanh M2 Black 1Tb: 8tr x 2 = 16tr.
-- Còn mình thì: M2 black 500Gb: 3tr5 và HDD WD 1Tb: 2tr, total: 3tr5 + 2tr = 5tr5. 
+- Còn mình thì: SSD WD BLue 500Gb: 1tr7 và HDD WD 1Tb: 2tr, total: 1tr7 + 2tr = 3tr7. 
 
 
 Tham Khảo
