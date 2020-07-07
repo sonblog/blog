@@ -14,7 +14,7 @@ SSD ngày càng rẻ nhưng vẫn chưa thay thế hoàn toàn cho HDD được,
 Mình thì cũng hem rành về phần cứng lắm đâu, nhưng nói về thương hiệu dành cho HDD thì mình luôn thích WD (Western Digital). HDD bây giờ tối thiểu thì cũng là 7200.
 
 - WD Blue: dành cho người dùng cơ bản nhất (1Tb / 1tr / bảo hành: 2 năm)
-- WD Black: dành cho người dùng nâng cao chút. (khuyên đùng) (1Tb / 2tr / bảo hành: 5 năm)
+- WD Black: dành cho người dùng nâng cao chút. (khuyên đùng) (1Tb / 2tr / bảo hành: 5 năm), giá gấp đôi nên độ bền cũng hơn Blue.
 - WD Red Pro: dùng cho NAS 
 - WD Purple: dùng cho Camera
 - WD VelociRaptor, RE/SE: mấy HDD này dùng cho máy trạm, server, người dùng thông thường như mình chắc sẽ hem có nhu cầu tìm hiểu, biết cái tên là được.
