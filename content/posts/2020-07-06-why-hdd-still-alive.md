@@ -9,6 +9,7 @@ tags:
   - "Computer"
 description: "SSD ngày càng rẻ nhưng vẫn chưa thay thế hoàn toàn cho HDD được, tại vì sao ?"
 ---
+![](/media/m2-ssd-1tb-font.jpg "M2 SSD WD 1Tb") 
 SSD ngày càng rẻ nhưng vẫn chưa thay thế hoàn toàn cho HDD được, tại vì sao ? Chúng ta cùng nhau tìm hiểu nào.
 Mình thì cũng hem rành về phần cứng lắm đâu, nhưng nói về thương hiệu dành cho HDD thì mình luôn thích WD (Western Digital). HDD bây giờ tối thiểu thì cũng là 7200.
 
