@@ -35,25 +35,17 @@ Sau đây là ví dụ planing sprint cho 2 tuần có gì
 
  	
   * Planing 2 (How): Sẽ hem có PO tham gia, Toàn team sẽ phân tích, tạo tasks, estimation tasks, vote points cho độ phức tạp của taks, Task sẽ được làm như thế nào.Nếu chưa hiểu về business, còn thắc mắc thì note lại, hoặc gọi cho PO để làm rõ.
-
  	
   * Code, unit tests, cross code review, convention code, ... tùy vào từng team mà áp dụng.
-
  	
   * Scrum Master: là người chịu trách nhiệm thiết lập nhóm, thiết lập cuộc họp trong các giai đoạn phát triển và loại bỏ các vật cản ảnh hưởng đến sự phát triển
-
  	
   * Product owner: tạo ra backlog sản phẩm, đưa ra thứ tự ưu tiên cho backlog và chịu trách nhiệm cho việc phát hành các tính năng ở mỗi giai đoạn.
-
  	
   * Daily meeting: không được quá 15p, đứng xung quanh bảng được dán tasks, cập nhật tình hình tasks với mọi  người trong team, có khó khăn gì không, nếu có sẽ tạo meeting riêng để thảo luận vấn đề này vê team hoặc người làm trong story.
-
  	
   * Thứ tự ưu tiên của tasks sẽ được dán từ trên xuông dười, tập trung hoàn thành từng story một, không nên làm, mở quá nhiều story mà cái nào cũng không xong.
 
 
-Tasks Board.
-
-....
-
-source:
+Reference:
+- https://www.scrum.org/resources/blog/evolution-development-team
