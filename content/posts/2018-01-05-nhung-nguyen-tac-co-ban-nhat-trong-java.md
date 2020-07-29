@@ -183,6 +183,7 @@ Lợi ích:
 1/ Đối tượng hoá và có thể dùng switch ...case. 
 2/ An toàn về kiểu và giá trị, giống như constants không thể gõ nhầm dc. 
 3/ Dùng Enum.valueOf để validate dễ dàng. 
+4/ Có lưu xuống database thì nhìn cũng rõ nghĩa hơn là những con số.
 ```
 
 10. Collection nên dùng interface và diamond operator <>, code review projects nào cũng gặp.
@@ -286,7 +287,7 @@ public List<Cheese> getCheeses() {
 
 **18.** https://stackify.com/best-practices-exceptions-java/
 
-**19.** Nên viết java doc, document những exposed API nhất là những micro services thì bắt buôc phải có, nếu dc thì document luôn soupui hay export postman.
+**19.** Nên viết java doc, document những exposed API nhất là những micro services thì bắt buôc phải có, nếu dc thì document luôn soapui hay export postman.
 
 **20. Keep methods small and focused:** nếu 1 method có quá nhiều code thì nên `extract method` đó ra thành nhiều method nhỏ.
 
@@ -310,6 +311,16 @@ Error: thrown bởi JVM (OutOfMemoryError)
 Runtime Exception.
 https://www.w3resource.com/java-tutorial/types-of-exception.php
 
-**24. Serialization**: là gì và khi nào dùng, mình cũng hem biết. Bạn nào biết thì comment bên dưới chỉ mình nhé.
+**24. GroupingBy**, Nên dùng GroupingBy thay thế cho for, find in array sẽ nhanh hơn.
 
-Thanks.
+```java
+// Group by id and a object
+List<ClientEntity> entities = ...;
+Map<Long, ClientEntity> idAndClientMap = entities.stream().collect(Collectors.toMap(c -> c.getId(), Function.identity()));
+
+// Group by id and object list
+Map<Long, List<ClientEntity>> idAndClientsMap = entities.stream().collect(Collectors
+                .groupingBy(c -> c.getId(), Collectors.mapping(Function.identity(), Collectors.toList())));
+```
+
+
