@@ -9,9 +9,9 @@ tags:
   - "Hibernate"
 description: "Hibernate n+1 rất phổ biến và thường gặp khi dùng Hibernate. Khi dùng cần phải lưu ý để performance tốt hơn. "
 ---
-Khi nào thì vấn đề hibernate n+1 xuất hiện ?
+**Khi nào thì vấn đề hibernate n+1 xuất hiện ?**
 
-Khi
+Khi dùng @ManyToOne(Lazy) hay dùng for trong java truy xuất entity.
 
 
 
