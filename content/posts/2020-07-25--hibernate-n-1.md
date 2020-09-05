@@ -7,37 +7,37 @@ slug: "hibernate-n1"
 category: "Hibernate"
 tags:
   - "Hibernate"
-description: "Hibernate n+1 rất phổ biến và thường gặp khi dùng Hibernate. Khi dùng cần phải lưu ý để performance tốt hơn. "
+description: "Hibernate n+1 is very common and usually meet when use Hibernate. Attention when using to get good performance."
 ---
 ## **Context**
 
-Khi dùng `@ManyToOne`, `@OneToOne`. 
+Using `@ManyToOne`, `@OneToOne` annotation
 
-`FetchType.LAZY` hay Eager đều bị n+1 hết. Lazy là khi gọi getXXX vào sẽ load data, còn Eager thì luôn luôn load data lên sẵn.
+`FetchType.LAZY` or Eager is get n+1. Lazy when call getXXX then will load/fetch data, Eager is always get data already.
 
 Dễ bị một cách không tường minh nhất là dùng thư viện copy properties `BeanUtils.copyproperties` hay là code tự viết, quét qua object gọi hết tất cả hàm get và những object con lồng con.
 
 ## **Solutions**
-Cách dễ nhất để kiểm tra có bị hibernate +1 hay không là bật `format_sql=true`, example for Spring 
+An easy way to check hibernate n+1 that show query hibernate `format_sql=true`, example for Spring 
 
 ```
 spring.jpa.properties.hibernate.format_sql=true
 ```  
-### **Cách 1:**
-Dùng join load ngay lặp tức trong 1 câu query, lưu ý khi dùng phân trang sẽ không còn đúng.
+### **Solution 1:**
+Using join load immediately in one query, lưu ý khi dùng phân trang sẽ không còn đúng.
 
-**Ưu điểm:** Tiện lợi trong viết coding, khai báo annotation là xong.
+**Ưu điểm:** Write code less, only declare annotation is done.
 
 **Khuyết điểm:** 
   - Nhiều nguy cơ tiềm ẩn không kiểm soát, do lúc nào cũng load data lên khi entity có nhiều liên kết và entity lồng entity và liên kết lồng liên kết, có nhiều configurations để load data liên kết sẽ khó maintain. 
-  - Inner join thì không sao, nhưng dùng outer left join sẽ rất chậm khi có nhiều data so với tách ra 1 query riêng sẽ nhanh hơn.
+  - Inner join will be OK, but using outer left join will be very slower when got a lot of data than separate another query.
 
-### **Cách 2:** 
-Không dùng `@ManyToOne` hay `@OneToOne` cho Entity, tự viết code để load vào model.
+### **Solution 2:** 
+Don't using `@ManyToOne` or `@OneToOne` for Entity, Write code by hand to load data for model.
 
 **Ưu điểm:** Do mình tự code, cần load gì thì load, sẽ tối ưu hơn, dễ custom.
 
-**Khuyết điểm:** viết code nhiều hơn (1).
+**Khuyết điểm:** Write more codes than (1).
 
 ### Implement in coding for solution 1:
 
@@ -45,7 +45,7 @@ Không dùng `@ManyToOne` hay `@OneToOne` cho Entity, tự viết code để loa
 2. Entity Graph (NamedEntityGraph)
 
 ### Implement in coding for solution 2:
-- Dùng nhiều query 
+- Using multiple queries 
 
 
 
