@@ -49,3 +49,4 @@ Sau đây là ví dụ planing sprint cho 2 tuần có gì
 
 Reference:
 - https://www.scrum.org/resources/blog/evolution-development-team
+- https://agilemanifesto.org/
