@@ -301,7 +301,7 @@ System.out.println(1.03 - 0.42);
 Output:   0.6100000000000001 
 ```
 
-**23. Có bao nhiều loại Exception**, hơ hỏi bắt ngờ quá cũng hem nhớ nữa. Hỏi cách khác rõ hơn đi. Có bao nhiêu loại Throwables in Java. Câu trả lời là 2 loại:
+**23. Có bao nhiều loại Exception** 
 
 Checked Exception: (FileNotFoundException) 
 
@@ -311,16 +311,21 @@ Error: thrown bởi JVM (OutOfMemoryError)
 Runtime Exception.
 https://www.w3resource.com/java-tutorial/types-of-exception.php
 
-**24. GroupingBy**, Nên dùng GroupingBy thay thế cho for, find in array sẽ nhanh hơn.
+**24. GroupingBy**, Nên dùng Map thay thế cho for, duyệt qua loop if find first return
 
 ```java
+.collect(Collectors.toList());
+
 // Group by id and a object
-List<ClientEntity> entities = ...;
 Map<Long, ClientEntity> idAndClientMap = entities.stream().collect(Collectors.toMap(c -> c.getId(), Function.identity()));
 
 // Group by id and object list
 Map<Long, List<ClientEntity>> idAndClientsMap = entities.stream().collect(Collectors
                 .groupingBy(c -> c.getId(), Collectors.mapping(Function.identity(), Collectors.toList())));
 ```
+Khi put vào map nhở kiểm tra value phải khác null
 
+Map<Long, List<Long>> map;
+
+map.put(1L, khác null);                
 
